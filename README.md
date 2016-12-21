@@ -1,5 +1,16 @@
 # Lanyon
 
+
+
+## Graphviz
+Come usare **graphviz** per creare i grafici usati come illustrazioni per alcune parti del libro.
+Gli [attributi](http://www.graphviz.org/doc/info/attrs.html) e l'uso da [linea di comando](http://www.graphviz.org/content/command-line-invocation).
+
+
+
+
+---
+
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
 ![Lanyon](https://f.cloud.github.com/assets/98681/1825266/be03f014-71b0-11e3-9539-876e61530e24.png)

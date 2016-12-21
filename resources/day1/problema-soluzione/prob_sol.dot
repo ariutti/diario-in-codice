@@ -1,0 +1,118 @@
+digraph pt1 {
+	center = true;
+	
+	// se dpi = 800 e inches=1 (size=1) 
+	// allora l'immagine sarà larga 800 px!!
+	dpi="800";
+	size="1";
+		
+	{ rank="same"; problema; soluzione }
+
+	// NODI *****************************************/
+	problema [label="problema", style=filled, color="#ff4444", fontname = "Courier"]
+	soluzione [label="soluzione!", style=filled, color="#44ff44", fontname = "Courier"]
+	
+	// EDGES ****************************************/
+
+	problema -> soluzione [arrowhead="open"]
+}
+
+digraph pt2 {
+	center = true;
+
+	// se dpi = 800 e inches=1 (size=1) 
+	// allora l'immagine sarà larga 800 px!!
+	dpi="800";
+	size="1";
+	
+	{ rank="same"; problema; elaboratore; soluzione; }
+
+	// NODI *****************************************/
+	problema [label="problema", style=filled, color="#ff4444", fontname = "Courier"]
+	elaboratore [label="elaboratore", shape="box", fontname = "Courier"]
+	soluzione [label="soluzione!", style=filled, color="#44ff44", fontname = "Courier"]
+	
+	// EDGES ****************************************/
+
+	problema -> elaboratore [arrowhead="open"];
+	elaboratore -> soluzione [arrowhead="open"];
+}
+
+digraph pt3 {
+	center = true;
+
+	// se dpi = 800 e inches=1 (size=1) 
+	// allora l'immagine sarà larga 800 px!!
+	dpi="800";
+	size="1";
+	
+	{ rank="same"; problema; algoritmo; elaboratore; soluzione;  }
+
+	// NODI *****************************************/
+	problema [label="problema", style=filled, color="#ff4444", fontname = "Courier"]
+	algoritmo [label="algoritmo", fontname = "Courier"]
+	elaboratore [label="elaboratore", shape="box", fontname = "Courier"]
+	soluzione [label="soluzione!", style=filled, color="#44ff44", fontname = "Courier"]
+	
+	// EDGES ****************************************/
+
+	problema -> algoritmo [arrowhead="open"];
+	algoritmo -> elaboratore [arrowhead="open"];
+	elaboratore -> soluzione [arrowhead="open"];
+}
+
+digraph pt4 {
+	center = true;
+
+	// se dpi = 800 e inches=1 (size=1) 
+	// allora l'immagine sarà larga 800 px!!
+	dpi="800";
+	size="1";
+	
+	{ rank="same"; problema; algoritmo; programma; elaboratore; soluzione;  }
+
+	// NODI *****************************************/
+	problema [label="problema", style=filled, color="#ff4444", fontname = "Courier"]
+	algoritmo [label="algoritmo", fontname = "Courier"]
+	programma [label="programma", fontname = "Courier"]
+	elaboratore [label="elaboratore", shape="box", fontname = "Courier"]
+	soluzione [label="soluzione!", style=filled, color="#44ff44", fontname = "Courier"]
+	
+	// EDGES ****************************************/
+
+	problema -> algoritmo [arrowhead="open"];
+	algoritmo -> programma [arrowhead="open"];
+	programma -> elaboratore [arrowhead="open"];
+	elaboratore -> soluzione [arrowhead="open"];
+}
+
+// tailport="e", headport="ne"];
+
+digraph pt5 {
+	center = true;
+
+	// se dpi = 800 e inches=1 (size=1) 
+	// allora l'immagine sarà larga 800 px!!
+	dpi="800";
+	size="1";
+	
+	{ rank="same"; problema; soluzione;  }
+	{ rank="same"; algoritmo; elaboratore; };
+	{ rank="same"; programma; eseguibile; };
+
+	// NODI *****************************************/
+	problema [label="problema", style=filled, color="#ff4444", fontname = "Courier"]
+	algoritmo [label="algoritmo", fontname = "Courier"]
+	programma [label="programma\nalto livello", fontname = "Courier"]
+	eseguibile [label="eseguibile\n(linguaggio\nmacchina)", fontname = "Courier"]
+	elaboratore [label="elaboratore", shape="box", fontname = "Courier"]
+	soluzione [label="soluzione!", style=filled, color="#44ff44", fontname = "Courier"]
+	
+	// EDGES ****************************************/
+
+	problema -> algoritmo [arrowhead="open"];
+	algoritmo -> programma [arrowhead="open"];
+	programma -> eseguibile [label="compilazione"; arrowhead="open"];
+	eseguibile -> elaboratore [arrowhead="open", tailport="n"];
+	elaboratore -> soluzione [arrowhead="open"];
+}

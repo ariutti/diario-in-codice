@@ -9,12 +9,27 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+    <!-- <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Introduzione</a> -->
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
       `layout: page` in the front-matter. See readme for usage.
     {% endcomment %}
+
+
+  <a class="sidebar-nav-item" href="{{ site.baseurl }}/">Introduzione</a>
+  <!-- <a class="sidebar-nav-item" href="{{site_url}}/about/">Info</a> -->
+  <a class="sidebar-nav-item" href="{{site_url}}/day1/">Ch 1</a>
+  <!-- <a class="sidebar-nav-item" href="{{site_url}}/day2/">Day 2</a> -->
+
+  <a class="sidebar-nav-item" href="{{site_url}}/appendiceA/">Elettricità: le basi</a>
+  <a class="sidebar-nav-item" href="{{site_url}}/appendiceB/">FLOSS</a>
+  <!-- <a class="sidebar-nav-item" href="{{site_url}}/riferimenti/">Riferimenti</a> -->
+  <a class="sidebar-nav-item" href="{{site_url}}/bibliografia/">Bibliografia, sitografia</a>
+
+  <!-- <a class="sidebar-nav-item" href="{{site_url}}/blog/">Blog</a> -->
+  
+    {% comment %}
 
     {% assign pages_list = site.pages | sort:"url" %}
     {% for node in pages_list %}
@@ -25,14 +40,24 @@
       {% endif %}
     {% endfor %}
 
+    {% endcomment %}
+
+    <!--
     <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+    -->
+
   </nav>
 
+
+  <!--
   <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
   </div>
+  -->
+
+
 </div>

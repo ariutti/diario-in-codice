@@ -1,0 +1,27 @@
+digraph flusso {
+	center = true;
+
+	// se dpi = 800 e inches=1 (size=1) 
+	// allora l'immagine sarà larga 800 px!!
+	dpi="800";
+	size="1";
+	shape="box";
+	
+
+	{ rank="same";  };
+
+	// NODI *****************************************/
+	node0 [label="inizio", style=filled, color="#ff4444", fontname = "Courier"];
+	node1 [label="misura la base"];
+	node2 [label="misura l'altezza"];
+	node3 [label="calcola\nbase per altezza\ndiviso 2", shape="box"];
+	node4[label="fine!", style=filled, color="#44ff44", fontname = "Courier"]
+
+	
+	// EDGES ****************************************/
+	
+	node0 -> node1 [arrowhead="open"];
+	node1 -> node2 [arrowhead="open"];
+	node2 -> node3 [arrowhead="open"];
+	node3 -> node4 [arrowhead="open"];
+}
