@@ -22,6 +22,7 @@ La campagna si è conclusa il **31 Maggio 2016**, ma se il progetto ti piace e s
 ## Ringraziamenti
 
 Come prima cosa voglio ringraziare tutti coloro che hanno contribuito al progetto (l'elenco in ordine alfabetico). Un grazie di cuore a:
+
 * Francesco Ariis
 * Giovanni Ariutti
 * Alberico Brentisci

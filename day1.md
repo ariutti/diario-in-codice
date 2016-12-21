@@ -24,7 +24,7 @@ Se un tempo, come ci dice il sig. Hénin la parola **computer** stava ad indicar
 
 Il **computer** è un utensile, uno strumento: se il martello serve per piantare chiodi e il righello per tracciare linee diritte, così il computer serve per facilitare il completamento di un compito. In particolare il computer è stato inventato per risolvere problemi in breve tempo.
 
-![PROBLEMA → SOLUZIONE](/assets/images/day1/prob_sol.dot.png)
+![PROBLEMA → SOLUZIONE]({{site.baseurl}}/assets/images/day1/prob_sol.dot.png)
 
 Ecco qui alcuni problemi:
 * disegnare un ellisse;
@@ -44,13 +44,13 @@ Ne segue che calcoli molto difficili, che richiederebbero anni per essere termin
 
 In certi casi allora è molto meglio affidarsi ad un computer:
 
-![PROBLEMA → ELABORATORE → SOLUZIONE](/assets/images/day1/prob_sol.dot.2.png)
+![PROBLEMA → ELABORATORE → SOLUZIONE]({{site.baseurl}}/assets/images/day1/prob_sol.dot.2.png)
 
 Come ho detto, non basta indicare all'elaboratore **quale** sia il problema, ma occorre anche istruirlo su **come** risolverlo!
 
 Eccoci arrivati al concetto di **algoritmo**.
 
-![PROBLEMA → ALGORITMO → ELABORATORE → SOLUZIONE](/assets/images/day1/prob_sol.dot.3.png)
+![PROBLEMA → ALGORITMO → ELABORATORE → SOLUZIONE]({{site.baseurl}}/assets/images/day1/prob_sol.dot.3.png)
 
 ## Algoritmo: le mosse elementari
 
@@ -64,7 +64,7 @@ Davanti ad un nuovo problema il computer si sente un po' come noi alle prese con
 
 Un algoritmo è un insieme di **istruzioni** preparato per completare un lavoro; all'ora di pranzo potremmo quindi scoprirci nello svolgere l'algoritmo schematizzato nel seguente **diagramma a blocchi**:
 
-![diagramma a blocchi pasta](/assets/images/day1/diagramma-di-flusso.png)
+![diagramma a blocchi pasta]({{site.baseurl}}/assets/images/day1/diagramma-di-flusso.png)
 
 Mi è venuta fame!
 
@@ -98,12 +98,12 @@ Proviamone un altro, questa volta si tratta dell'algoritmo per ricavare l'area d
 
 
 {% comment %}
-![diagramma di flusso triangolo](/assets/images/day1/diagramma-di-flusso-triangolo.dot.png){: width="30%"}
-![triangolo ](/assets/images/day1/triangolo.png){: width="30%" float="right"}
+![diagramma di flusso triangolo]({{site.baseurl}}/assets/images/day1/diagramma-di-flusso-triangolo.dot.png){: width="30%"}
+![triangolo ]({{site.baseurl}}/assets/images/day1/triangolo.png){: width="30%" float="right"}
 {% endcomment %}
 
 
-![triangolo](/assets/images/day1/triangolo-bis.png)
+![triangolo]({{site.baseurl}}/assets/images/day1/triangolo-bis.png)
 
 Le istruzioni rappresentare nel diagramma sono:
 * misura la **base**
@@ -118,7 +118,7 @@ Ed è proprio così che lavora un computer: si limita ad eseguire fedelmente gli
 
 Non dimentichiamo che il computer in fondo è un utensile, una macchina profondamente ottusa:
 
-![citazione Sterling](/assets/images/day1/sterling.png)
+![citazione Sterling]({{site.baseurl}}/assets/images/day1/sterling.png)
 
 Le regole base per ogni algoritmo sono 3:
 * **eseguibilità**: ogni mossa deve poter essere eseguita in un tempo finito;
@@ -137,7 +137,7 @@ L’algoritmo deve essere trasformato in un **programma** che non è altro se no
 
 Come ogni linguaggio, anche quello di programmazione  si basa su un insieme di parole e locuzioni specifiche (il **lessico**) e rispetta una serie di regole sulla loro interconnessione (la **sintassi**) per formare proposizioni.
 
-![PROBLEMA → ALGORITMO → PROGRAMMA → ELABORATORE → SOLUZIONE](/assets/images/day1/prob_sol.dot.4.png)
+![PROBLEMA → ALGORITMO → PROGRAMMA → ELABORATORE → SOLUZIONE]({{site.baseurl}}/assets/images/day1/prob_sol.dot.4.png)
 
 Di linguaggi di programmazione ce ne sono davvero molti e lo stesso algoritmo può essere espresso in uno o in un altro in base agli esecutori cui è destinato.
 
@@ -178,12 +178,12 @@ In altri termini, per poter essere eseguito sull'elaboratore, il nostro programm
 
 Un compilatore è esso stesso un programma, un programma molto complesso il cui compito è quello di risolvere una specifica categoria di problemi: tradurre programmi scritti in linguaggi di programmazione ad alto livello in programmi equivalenti, scritti in linguaggio macchina.
 
-![PROBLEMA → ALGORITMO → PROGRAMMA (alto livello) → Compilazione → Eseguibile → ELABORATORE → SOLUZIONE](/assets/images/day1/prob_sol.dot.5.png)
+![PROBLEMA → ALGORITMO → PROGRAMMA (alto livello) → Compilazione → Eseguibile → ELABORATORE → SOLUZIONE]({{site.baseurl}}/assets/images/day1/prob_sol.dot.5.png)
 
 
 Il processo di traduzione in questo caso è detto **compilazione** mentre il risultato della compilazione è detto, semplificando, **eseguibile**. L'eseguibile è un programma scritto in linguaggio macchina e pronto per essere eseguito dall'elaboratore.
 
-![livelli di astrazione](/assets/images/day1/livelli-astrazione.png)
+![livelli di astrazione]({{site.baseurl}}/assets/images/day1/livelli-astrazione.png)
 
 La compilazione avviene una volta sola e qualora volessimo far funzionare il nostro programma più e più volte, ci basterà disporre del solo eseguibile per risolvere il nostro problema.
 
@@ -208,17 +208,17 @@ Non stiamo dicendo nulla di nuovo, sappiamo infatti dall'esperienza quotidiana c
 
 Ad esempio, se volessimo installare il programma [LibreOffice](https://www.libreoffice.org/) sul nostro computer, sappiamo che dovremmo dapprima sceglierne la versione corretta per il download dal sito intenet.
 
-![LibreOffice: eseguibili.](/assets/images/day1/libreoffice-versions.png)
+![LibreOffice: eseguibili.]({{site.baseurl}}/assets/images/day1/libreoffice-versions.png)
 
 Semplificando un poco, ogni volta che installiamo un nuovo programma stiamo di fatto copiando nella memoria del nostro computer un file. Questo file è l'_eseguibile_, la versione del programma tradotta nel linguaggio macchina specifico per il nostro computer. Installato l'eseguibile di _LibreOffice_, il nostro computer si è arricchito di nuove funzionalità: mandando in esecuzione questo file, saremo in grado di generare e manipolare diversi tipi di documento ogni volta che vorremo.
 
 Questo per sottolineare il fatto che, di file eseguibili, ne possono esistere tante versioni diverse, tante quante sono le diverse macchine per cui il programma è stato progettato, ognuna delle quali rappresenta una traduzione in linguaggio macchina specifica per una particolare macchina. E' questo in fondo il significato di _programma multipiattaforma_.
 
-![compilazione](/assets/images/day1/compilatori-1.png)
+![compilazione]({{site.baseurl}}/assets/images/day1/compilatori-1.png)
 
 Se gli eseguibili sono file che vengono eseguiti direttamente dalla macchina per estenderne le funzionalità e risolvere particolari problemi, unico è invece il _codice sorgente_ da cui tutte queste possibili traduzioni derivano.
 
-La maggiorparte dei programmi che si trovano in commercio sono in formato eseguibile mentre molti altri consentono l'accesso anche al rispettivo codice sorgente. Questi ultimi sono programmi che sposano la filosofia del **Software Libero** e **Open Source** che avremo modo di approfondire nell'[appendice dedicata](/appendiceB/). Tra questi ultimi anche lo stesso **Arduino**.
+La maggiorparte dei programmi che si trovano in commercio sono in formato eseguibile mentre molti altri consentono l'accesso anche al rispettivo codice sorgente. Questi ultimi sono programmi che sposano la filosofia del **Software Libero** e **Open Source** che avremo modo di approfondire nell'[appendice dedicata]({{site.baseurl}}/appendiceB/). Tra questi ultimi anche lo stesso **Arduino**.
 
 Il nome Arduino infatti non è soltanto associato alle famose schede elettroniche, ma è anche il nome con cui è stato battezzato un programma libero e multipiattaforma che si usa per programmare e caricare codice sulle schede.
 
@@ -235,12 +235,9 @@ Se il nostro computer ha _Debian_ come sistema operativo e scaricassimo l'esegui
 
 Quanto detto è utile per capire che, di un particolare programma, ne possono esistere tante traduzioni eseguibili differenti, almeno tante quante sono le macchine per cui il programma è stato pensato (questo è proprio il senso della parola _multipiattaforma_!)
 
-![ILLUSTRAZIONE](livelli di astrazione e differenti compilatori)
+![ILLUSTRAZIONE]({{site.baseurl}}livelli di astrazione e differenti compilatori)
 
 Come mostra l'illustrazione, a seconda di quale sia la macchina su cui il programma dovrà funzionare, dal codice sorgente iniziale occorrerà ricavare una traduzione in linguaggio macchina eseguibile attraverso l'uso del compilatore dedicato.
-
-
-
 
 Da notare che in questo modo non stiamo usando codice sorgete. Stiamo invece acquisendo codice già compilato! Questo è quello che accade nella maggiorparte dei casi.
 Mentre tutto questo può risultare banale, quello che forse non si è mai sperimentato è creare il proprio software a partire da codice sorgete (proprio o altrui github).
