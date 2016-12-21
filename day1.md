@@ -10,7 +10,7 @@ title: Capitolo 1
 Anonimo
 {% endcomment %}
 
-Che cosa significa **programmare**? Ecco qunato riporta la pagina di [wikipedia](https://it.wikipedia.org/wiki/Programmazione_%28informatica%29):
+Che cosa significa **programmare**? Ecco quanto riporta la pagina di [wikipedia](https://it.wikipedia.org/wiki/Programmazione_%28informatica%29):
 
 >La programmazione, in **informatica**, è l'insieme delle attività e tecniche che una o più persone specializzate, **programmatori** o **sviluppatori** (_developer_), svolgono per creare un **programma**, ossia un **software** da far eseguire ad un **computer**, scrivendo il relativo **codice sorgente** in un certo **linguaggio di programmazione**.
 
