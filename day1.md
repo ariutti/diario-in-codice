@@ -27,6 +27,7 @@ Il **computer** è un utensile, uno strumento: se il martello serve per piantare
 ![PROBLEMA → SOLUZIONE]({{site.baseurl}}/assets/images/day1/prob_sol.dot.png)
 
 Ecco qui alcuni problemi:
+
 * disegnare un ellisse;
 * calcolare l'area di un trinagolo data base ed altezza;
 * data una mappa, individuare il percorso più breve tra un punto ed un altro;
@@ -106,6 +107,7 @@ Proviamone un altro, questa volta si tratta dell'algoritmo per ricavare l'area d
 ![triangolo]({{site.baseurl}}/assets/images/day1/triangolo-bis.png)
 
 Le istruzioni rappresentare nel diagramma sono:
+
 * misura la **base**
 * misura l'**altezza**;
 * calcola $$ \frac{base * altezza}{2} $$
@@ -121,6 +123,7 @@ Non dimentichiamo che il computer in fondo è un utensile, una macchina profonda
 ![citazione Sterling]({{site.baseurl}}/assets/images/day1/sterling.png)
 
 Le regole base per ogni algoritmo sono 3:
+
 * **eseguibilità**: ogni mossa deve poter essere eseguita in un tempo finito;
 * **non ambiguità**: l'azione da compiere a ogni passo deve essere univocamente determinata e non dare spazio all'interpretazione;
 * **finitezza**: può sembrare scontato ma si richiede che il processo definito dall'algoritmo termini, cioè conduca alla soluzione in un numero finito di passi.
@@ -144,6 +147,7 @@ Di linguaggi di programmazione ce ne sono davvero molti e lo stesso algoritmo pu
 Per lo più potremmo includere i linguaggi di programmazione in due grandi catagorie: quelli a _basso_ e quelli ad _alto livello_.
 
 ### Linguaggi a basso livello
+
 Se vogliamo comunicare direttamente con un computer, dobbiamo usare linguaggi davvero molto basilari; il più elementare di questi è chiamato **linguaggio macchina**.
 
 Se provassimo a leggere un programma scritto in linguaggio macchina ci accorgeremmo subito che non contiene nulla che sia facilmente riconducibile a parole o frasi comprensibili da noi umani.
@@ -163,6 +167,7 @@ Per lungo tempo telai come questo, così come altri tipi di macchinari automatic
 Un programma scritto in linguaggio macchina infatti è legato strettamente all'hardware dell'elaboratore per il quale è stato pensato: se ad esempio volessimo ricamare lo stesso disegno usando un secondo telaio di tipo diverso, il programma già scritto non funzionerebbe. Dovremmo rimboccarci le maniche e riscriverlo da capo, nel linguaggio macchina associato al secondo telaio!
 
 ### Linguaggi ad alto livello
+
 Per fortuna, con il passare del tempo, con lo sviluppo scientifico da un lato e la progressiva standardizzazione degli eleboratori dall'altro, sono nati nuovi linguaggi più facili da leggere e da scrivere, meno dipendenti dall'hardware e in grado di garantire una certa compatibilità.
 Questi linguaggi sono detti linguaggi ad _alto livello_.
 
@@ -179,7 +184,6 @@ In altri termini, per poter essere eseguito sull'elaboratore, il nostro programm
 Un compilatore è esso stesso un programma, un programma molto complesso il cui compito è quello di risolvere una specifica categoria di problemi: tradurre programmi scritti in linguaggi di programmazione ad alto livello in programmi equivalenti, scritti in linguaggio macchina.
 
 ![PROBLEMA → ALGORITMO → PROGRAMMA (alto livello) → Compilazione → Eseguibile → ELABORATORE → SOLUZIONE]({{site.baseurl}}/assets/images/day1/prob_sol.dot.5.png)
-
 
 Il processo di traduzione in questo caso è detto **compilazione** mentre il risultato della compilazione è detto, semplificando, **eseguibile**. L'eseguibile è un programma scritto in linguaggio macchina e pronto per essere eseguito dall'elaboratore.
 
@@ -221,6 +225,10 @@ Se gli eseguibili sono file che vengono eseguiti direttamente dalla macchina per
 La maggiorparte dei programmi che si trovano in commercio sono in formato eseguibile mentre molti altri consentono l'accesso anche al rispettivo codice sorgente. Questi ultimi sono programmi che sposano la filosofia del **Software Libero** e **Open Source** che avremo modo di approfondire nell'[appendice dedicata]({{site.baseurl}}/appendiceB/). Tra questi ultimi anche lo stesso **Arduino**.
 
 Il nome Arduino infatti non è soltanto associato alle famose schede elettroniche, ma è anche il nome con cui è stato battezzato un programma libero e multipiattaforma che si usa per programmare e caricare codice sulle schede.
+
+
+
+
 
 {% comment %}
 ---
