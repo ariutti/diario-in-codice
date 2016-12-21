@@ -29,7 +29,7 @@ Il **computer** è un utensile, uno strumento: se il martello serve per piantare
 Ecco qui alcuni problemi:
 
 * disegnare un ellisse;
-* calcolare l'area di un trinagolo data base ed altezza;
+* calcolare l'area di un triangolo data base ed altezza;
 * data una mappa, individuare il percorso più breve tra un punto ed un altro;
 * dato un testo, controllare e quantificare quante volte compare un particolare termine (mi piacerebbe sapere quante volte viene usato il termine _anello_ all'interno de _Il Signore degli Anelli_!);
 * trovare il modo migliore per stivare il maggior quantitativo di pacchi all'interno di un container;
