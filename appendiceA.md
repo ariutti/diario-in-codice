@@ -5,36 +5,49 @@ title: Appendice A - Elettricità, le basi
 
 Work in progress!
 
-
-{% comment %}
 ## Elektron
 
-Fin dall'antichità i pensatori Greci erano rimasti curiosamente colpiti dalla particolari proprietà dell'**ambra**. Sappiamo che l'ambra è una particolare resina di origine vegetale che, col pasare dei millenni, si rinviene sottoforma di fossile.
+Fin dall'antichità i pensatori Greci erano rimasti curiosamente colpiti dalla particolari proprietà dell'**ambra**: sappiamo che l'ambra è una particolare resina di origine vegetale che, col passare dei millenni, si rinviene sottoforma di fossile.
 
-![AMBRA](https://upload.wikimedia.org/wikipedia/commons/5/54/HALAMB48.JPG){: width="30%" }
+![AMBRA](/assets/images/appendice_A/amber.jpg){: width="30%" }
 
 L'ambra, in greco _elektron_, se strofinata con un panno di lana, ha la propietà di attrarre a sé piccoli oggetti quali pezzetti di paglia o piccoli semi.
 
 Questa semplice esperienza può essere facilmente replicata usando bacchette di vetro o plastica. Prendiamo due bacchette di vetro o di plastica e sospendiamone una per il suo centro usando un sottile filo di nylon.
 
-![esperimento bacchette repulsione 1 e 2 ](eseprimenti)
-
 Strofiniamo poi con un panno di lana un'estremità della bacchetta sospesa e l'estremità libera della bacchetta che impugnamo. Osserveremo che:
 
 * se le due bacchette sono entrambe di vetro o entrambe di plastica, gli estremi elettrizzati si respingono;
+
+{% comment %}
+![esperimento bacchette repulsione 1 ](/assets/images/appendice_A/bacchette_plastica.png){: width="100%"} | ![esperimento bacchette repulsione 2 ](/assets/images/appendice_A/bacchette_vetro.png){: width="100%"}
+{% endcomment %}
+
+![esperimento bacchette repulsione 1 ](/assets/images/appendice_A/bacchette-repulsione-01.png){: width="100%"} | ![esperimento bacchette repulsione 2 ](/assets/images/appendice_A/bacchette-repulsione-02.png){: width="100%"}
+
 * se una bacchetta è di vetro e l'altra è di plastica, gli estremi elettrizzati si attraggono;
 
-![esperimento bacchette attrazioni 3 ](eseprimenti)
+{% comment %}
+![esperimento bacchette attrazioni 3 ](/assets/images/appendice_A/bacchette_pv.png){: width="60%"}
+{% endcomment %}
+
+![esperimento bacchette attrazioni 3 ](/assets/images/appendice_A/bacchette-attrazione.png){: width="60%"}
 
 * tutti i corpi elettrizzati che sono respinti dalla bacchetta di plastica sono invece attratti da quella di vetro e, viceversa, tutti quelli che sono respinti dal vetro sono attratti dalla plastica strofinata; non esistono altri comportamenti.
 
-Possiamo spiegare questi fenomeni facendo l'ipotesi che esistano due tipi di elettricità. Seguendo la tradizione li chiameremo **elettricità positiva** e **elettricità negativa**.
+Possiamo spiegare questi fenomeni facendo l'ipotesi che esistano due tipi di elettricità. Seguendo la tradizione li chiameremo **elettricità positiva** (o carica positica) e **elettricità negativa** (o carica negativa) .
+
+![immagini](più e meno)
 
 Da dove provengono queste cariche? La scoperta dell'**elettrone** - avvenuta alla fine del 1800 ad opera del fisico inglese _John Joseph Thomson_ (1856-1940) - mostrerà che le cariche sono già naturalmente contenute in tutte le sostanze.
 
-Gli elettroni sono particelle cariche negativamente che si trovano in tutti gli elementi naturali. La loro presenza induce a pensare che all'interno di una corpo neutro (che si trova cioè in equilibrio elettrico) esistano anche delle cariche in grado di controbilanciare quelle negative, di segno opposto: positive.
+Gli elettroni sono particelle cariche negativamente che si trovano in tutti gli elementi naturali. La loro presenza induce a pensare che all'interno di una corpo neutro (che si trova cioè in equilibrio elettrico) esistano anche delle cariche di segno opposto (positive) in grado di controbilanciare le negative.
 
-Sappiamo infatti che la materia è costituita da **atomi**; l'atomo è formato da tre unità fodamentali: **protoni**, **neutroni** ed **elettroni**. Protoni e neutroni costituiscono il nucleo dell'atomo mentri gli elettroni gli orgitano attorno, più o meno ordinatamente.
+Sappiamo infatti che la materia è costituita da **atomi** e che l'atomo è formato da tre unità fodamentali: **protoni**, **neutroni** ed **elettroni**.
+
+![immagine atomo](/assets/images/appendice_A/atomo.png){: width="60%"}
+
+Protoni e neutroni costituiscono il nucleo dell'atomo mentri gli elettroni gli orbitano attorno, più o meno ordinatamente.
 
 Gli elettroni, come abbiamo visto, sono le particelle atomiche che possiedono la carica negativa, sono invece i protoni a possedere quella positiva (il neutrone non ha carica).
 
@@ -42,6 +55,11 @@ Un atomo di una sostanza neutra avrà eguale numero di protoni e di elettroni co
 
 Un oggetto diviene in grado di respingere o attrarre a sé altri oggetti anch'essi elettrizzati proprio perché il normale equilibrio interno delle cariche viene alterato ed il numero di cariche positive non eguaglia più il numero di quelle negative.
 
+---
+
+TO BE CONTINUED
+
+{% comment %}
 ## Conduttori ed isolanti
 
 Continuando sulla strada delle caratteristiche elettriche della materia potremmo dividere tutte le sostanze presenti in natura in due grandi macro categorie e dire, semplificando un poco, che esistono:
@@ -74,7 +92,7 @@ Potremmo provare ora a porci una domanda: E possibile realizzare un dispositivo 
 
 La risposta a questa domanda è sì, questo dispoditivo è il **generatore**.
 
-![IMMAGINE DEL GENERATORE](a)
+![IMMAGINE DEL GENERATORE](/assets/images/appendice_A/generatore_01.png)
 
 Il generatore è un dispositivo che è in grado di separare le cariche, prelevandole da un punto e trasferendole in un altro creando così un disequilibro artificiale.
 
@@ -106,47 +124,57 @@ Più alto il ramo dal quale la mela si stacca, maggiore l'energia potenziale del
 
 [FIGURA corpi A e B]
 
-Consideriamo ora due vasi di fiori A e B. Ognuno si trova sul davanzale di una finestra d'appartamento. L'appartamento del vaso A si trova proprio sopra quello del vaso B.
+Consideriamo ora due vasi di fiori **A** e **B**. Ognuno si trova sul davanzale di una finestra d'appartamento. L'appartamento del vaso A si trova proprio sopra quello del vaso **B**.
 
 I due vasi possiedono differenti energie potenziali per il solo fatto di essere posizionati a quote differenti.
 
 Volendo fare un confronto tra le energie dei due vasi dovremmo prima essere in grado di misurarle concretamente e per farlo dobbiamo prima stabilire un punto di riferimento.
 
-Poniamo che sia il suolo il nostro punto di riferimento: il suolo interrompe gli effetti indotti dall'azione della forza di gravità. In altri termini un oggetto posizionato sul suolo non può cadere più in basso di così.
+Poniamo che questo riferimento sia il suolo: il suolo interrompe gli effetti indotti dall'azione della forza di gravità. In altri termini un oggetto posizionato sul suolo non può cadere più in basso di così.
 
 Il suolo sarà il punto di partenza per tutte le nostre misurazioni, diremo quindi che ogni oggetto che si trovi sul suolo possiede energia potenziale gravitazionale pari a zero.
 
 A questo punto non solo i diversi valori di energia potenziale possono essere misurati in base alla loro altezza dal suolo ma anche confrontati tra loro.
 
-Posso misurare l'energia potenziale del vaso A semplicemente usando la formula seguente, moltiplicando il peso di A (Pa) per la quota rispettiva (ha):
+Posso misurare l'energia potenziale del vaso **A** semplicemente usando la formula seguente, moltiplicando il peso di **A** ($$ P_a $$) per la quota rispettiva ($$ h_a $$):
 
-    Ua = Pa * ha [Kg*m]
+$$
+    U_a = P_a * h_a [Kg*m]
+$$
 
-Lo stesso si può fare per il vaso B.
+Lo stesso si può fare per il vaso **B**.
 
-    Ub = Pb * hb
+$$
+    U_b = P_b * h_b
+$$
 
-Nel nostro particolare caso, i due corpi A e B sono completamente identici per cui essi hanno lo stesso peso P.
+Nel nostro particolare caso, i due corpi **A** e **B** sono completamente identici per cui essi hanno lo stesso peso $$ P $$.
 
-    Pa = Pb = P.
+$$
+    P_a = P_b = P.
+$$
 
 Si vede così facilmente come le energie potenziali allora dipendano esclusivamente dalla quota.
 
 Posso poi quantificare la differenza tra le due energie potenziali:
 
-    DDPG = UA - UB
+$$
+    DDPG = U_A - U_B
+$$
 
 Per assurdo supponiamo ora di fermare il tempo e cambiare la realtà: aggiungiamo un paio di piani alla base del nostro palazzo così che i nostri vasi si trovino ora un po' più in alto rispetto a prima.
 
-Le energie potenziali dei vasi A e B sono entrambe aumentate perchè aumentate sono le loro quote. Quella che però resta invariata è la differenza di energia potenziale tra i due vasi, perchè invariata è la distanza relativa tra i due.
+Le energie potenziali dei vasi **A** e **B** sono entrambe aumentate perchè aumentate sono le loro quote. Quella che però resta invariata è la differenza di energia potenziale tra i due vasi, perchè invariata è la distanza relativa tra i due.
 
 Potevamo facilmente prevederlo anche sviluppando la formula
 
-    DDPG = Ua - Ub = (P * ha) - (P * hb) = P * (ha - hb)
+$$
+    DDPG = U_a - U_b = (P * h_a) - (P * h_b) = P * (h_a - h_b)
+$$
 
 ***
 
-Ma cosa significa realmente possedere una maggiore energia potenziale rispetto ad un riferimento? Una maggiore quantità di energia potenziale non è semplicemente una misura di "quanto ti fa male" se ti cade in testa.
+Ma cosa significa realmente possedere una maggiore energia potenziale rispetto ad un riferimento? Una maggiore quantità di energia potenziale non è semplicemente una misura di "_quanto ti fa male_" se ti cade in testa.
 
 Possedere energia potenziale significa disporre della capacità di produrre _lavoro_.
 
@@ -179,4 +207,4 @@ Non parleremo più di Differenza di Potenziale Gravitazionale ma di Differenza d
 
  ***
 
- {% endcomment %}
+{% endcomment %}

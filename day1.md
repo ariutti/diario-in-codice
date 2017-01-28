@@ -56,7 +56,7 @@ Eccoci arrivati al concetto di **algoritmo**.
 ## Algoritmo: le mosse elementari
 
 {% comment %}
->Elementare Watson!
+Elementare Watson!
 {% endcomment %}
 
 Una _ricetta_ del libro di cucina è un algoritmo: mostrati dapprima gli ingredienti e le quantità, la ricetta elenca uno dopo l'altro i vari passaggi per preparare il piatto!
@@ -227,29 +227,11 @@ La maggiorparte dei programmi che si trovano in commercio sono in formato esegui
 Il nome Arduino infatti non è soltanto associato alle famose schede elettroniche, ma è anche il nome con cui è stato battezzato un programma libero e multipiattaforma che si usa per programmare e caricare codice sulle schede.
 
 
-
+{% include disqus-scripts.html %}
 
 
 {% comment %}
 ---
-
-**eseguibile** (l'eseguibile, ormai lo sappiamo, è un programma espresso in linguaggio macchina (un semplice file in fondo) che il nostro computer eseguirà direttamente tutte le volte che avremo bisogno di risolvere le particolari categorie di problema per cui quel programma è stato progettato).
-
-Tutto questa lunga premessa per dire che l'_architettura hardware_ del nostro computer, assieme al particolare _sistema operativo_, diventano davvero importanti quando dobbiamo installare un nuovo programma: semplificando un poco, ogni volta che installiamo un nuovo programma, stiamo di fatto copiando nella memoria del nostro computer la sua versione **eseguibile** (l'eseguibile, ormai lo sappiamo, è un programma espresso in linguaggio macchina (un semplice file in fondo) che il nostro computer eseguirà direttamente tutte le volte che avremo bisogno di risolvere le particolari categorie di problema per cui quel programma è stato progettato).
-
-Dal momento che _LibreOffice_ è un programma _multipiattaforma_ infatti, che può funzionare cioè su molti computer e sistemi operativi diversi, è fondamentale che l'eseguibile che andremo a scaricare sia scritto nel linguaggio macchina comprensibile al nostro computer.
-
-Se il nostro computer ha _Debian_ come sistema operativo e scaricassimo l'eseguibile per _Windows_, il file non funzionerebbe: il nostro computer non sarebbe infatti in grado di interpretarne il linguaggio a basso livello, un po' come se cercassimo di ricamare un ordito con le schede perforate da telaio jacquard su di un telaio di tipo diverso!
-
-Quanto detto è utile per capire che, di un particolare programma, ne possono esistere tante traduzioni eseguibili differenti, almeno tante quante sono le macchine per cui il programma è stato pensato (questo è proprio il senso della parola _multipiattaforma_!)
-
-![ILLUSTRAZIONE]({{site.baseurl}}livelli di astrazione e differenti compilatori)
-
-Come mostra l'illustrazione, a seconda di quale sia la macchina su cui il programma dovrà funzionare, dal codice sorgente iniziale occorrerà ricavare una traduzione in linguaggio macchina eseguibile attraverso l'uso del compilatore dedicato.
-
-Da notare che in questo modo non stiamo usando codice sorgete. Stiamo invece acquisendo codice già compilato! Questo è quello che accade nella maggiorparte dei casi.
-Mentre tutto questo può risultare banale, quello che forse non si è mai sperimentato è creare il proprio software a partire da codice sorgete (proprio o altrui github).
-
 
 compilare un nuostro programma sulla stessa macchina che ancrà ad eseguirlo, usando un compilatore (sottoforma di eseguibile) che gira sulla macchina in questione
 
@@ -266,14 +248,5 @@ Nel caso di Arduino, quello che noi faremo sarà di usare il computer per compil
 [da WiKi: https://it.wikipedia.org/wiki/Cross-compilazione ]
 La cross-compilazione è la tecnica mediante la quale si compila un codice sorgente con un cross-compilatore, ottenendo così un file binario eseguibile su di un elaboratore con architettura diversa da quella della macchina su cui si è lanciato il cross-compilatore stesso.
 
-Fase di Sviluppo
-Esistono degli strumenti che facilitano il compito del programmatore nell’atto di scrivere un nuovo programma. Ma non solo. Questi strumenti lo aiutano a correggerlo e anche a tradurlo!
-si tratta degli IDE (in genere editor di testo + debug + traduttore)
 
-* * *
-
-Per programmare il nostro microcontroller ci serviremo di un linguaggio di programmazione denomianto Arduino. Questo linguaggio si basa si di un altro linguaggio, il linguaggio C e C++ (Arduino non è altro che un set di funzioni C/C++), due linguaggi a medio livello.
-Come ogni programma, anche quelli che scriveremo noi, per poter essere compresi, dovranno dapprima essere tradotti in linguaggio macchina attraverso la compilazione (cross-compilazione).
-
-Cominciamo allora!
 {% endcomment %}

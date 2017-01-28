@@ -10,10 +10,13 @@ La lista è incompleta ed è stata compilata in base alla personale esperienza d
 * Silvio Henin, "_Il computer dimenticato_", Hoeli 2015.
 * Bruce Sterling, "_Giro di Vite contro gli hackers_", Mondadori 2004.
 * Richard Stallman, "_Software Libero, Pensiero Libero_" Nuovi Equilibri, 2003.
+* Tim Bell, Ian H. Witten and MikeFellows, "_Computer Science Unplugged_", ecco il [link](http://csunplugged.org/wp-content/uploads/2016/02/csunplugged-it.2015.1.0.pdf) alla versione italiana scaricabile in _pdf_;
 
 ---
 
 Work in progress!
+
+{% include disqus-scripts.html %}
 
 {% comment %}
 * Mark Schmidt, "_Arduino_", Pragmatic Bookshelf, 2011
@@ -53,5 +56,8 @@ Alcuni video in cui Tom Igoe spiega i concetti base di Arduino
 A titolo di promemoria indichiamo qui alcune altre risorse che possono risultare interessanti:
 
 * [pighixxx](http://www.pighixxx.com/test/): sito internet molto ben fatto, ricco di immagini e documenti .pdf che illustrano molte [configurazioni circuitali](http://www.pighixxx.com/test/abc/), semplici e complesse, per esepriementi di elettronica DIY. Sul sito altre immagini riportano in modo scematico le piedinature dei [principali microcontrollori](http://www.pighixxx.com/test/pinoutspg/processors/) e [schede di prototipazione](http://www.pighixxx.com/test/pinoutspg/boards/). Tutto il materiale è rilasciato con licenza _CreativeCommons_! Sempre sul sito una collezione di [tools](http://www.pighixxx.com/test/tools/), come calcolatori di resistenza, converitori, configurazioni di LEDs, utilizzabili direttamente sul web.
+* [link A](http://programmailfuturo.it/media/docs/Lezione-06-Algoritmi.pdf)
+* [link B](https://code.org/curriculum/unplugged)
+
 
 {% endcomment %}
