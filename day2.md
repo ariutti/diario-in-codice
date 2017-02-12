@@ -9,7 +9,7 @@ Dopo aver introdotto i principali argomenti di cui ci occuperemo, la programmazi
 
 Che cosa è un dispositivo **interattivo**?
 
-![Physical computing](/assets/images/day2/physical_computing.png){: width="80%"}
+![Physical computing]({{ site.baseurl }}/assets/images/day2/physical_computing.png){: width="80%"}
 
 E' un dispositivo che dispone di elementi capaci di captare gli impulsi provenienti dal mondo esterno, detti **sensori**. In base agli impulsi esterni, il dispositivo reagisce assumendo un particolare **comportamento**, che può essere di tipo meccanico, elettrico o software. Gli elementi tramite cui interviene sul mondo esterno sono detti **attuatori**.
 
@@ -70,11 +70,11 @@ Prima di passare al linguaggio di programmazione Arduino, diamo uno sguardo d'in
 
 Ecco la scheda **Arduino UNO**!
 
-![Arduino UNO real](/assets/images/day2/board/Arduino_photo_2.png)
+![Arduino UNO real]({{ site.baseurl }}/assets/images/day2/board/Arduino_photo_2.png)
 
 ed una sua immagine stilizzata che useremo come riferimento d'ora in avanti.
 
-![Arduino UNO fritzinf](/assets/images/day2/board/arduino-fritzing.png){: width="50%"}
+![Arduino UNO fritzinf]({{ site.baseurl }}/assets/images/day2/board/arduino-fritzing.png){: width="50%"}
 
 L'immagine potrebbe non rappresentare la scheda in modo del tutto esatto, il progetto Arduino è in continuo aggiornamento e così anche le schede subiscono delle revisioni.
 
@@ -90,7 +90,7 @@ Passiamo ora all'esplorazione della scheda. Senza entrare troppo nei dettagli ec
 
 Un po' come un computer, anche la scheda Arduino UNO possiede un'unità centrale di controllo: si tratta del microchip **ATmega328P** appartenente alla famiglia dei microcontroller AVR prodotti dalla ditta Atmel.
 
-![MICROCONTROLLORE](/assets/images/day2/board/porzioni_microcontroller.png){: width="50%"}
+![MICROCONTROLLORE]({{ site.baseurl }}/assets/images/day2/board/porzioni_microcontroller.png){: width="50%"}
 
 Questo microcontroller è di fatto il cuore della scheda Arduino UNO: ad esso sono collegati tutti gli input e gli output ed è sempre qui che il nostro programma viene memorizzato e messo in esecuzione.
 
@@ -104,7 +104,7 @@ Per funzionare la scheda Arduino ha bisogno d'essere alimentata, ecco alcuni mod
 
 * si può utilizzare il cavo USB per connettere la scheda al computer. In tal caso il cavo USB svolge una doppia funzione: da una parte ci permette di caricare nuovi programmi sulla scheda Arduino, dall'altra fornisce l'alimentazione necessaria per il funzionamento della scheda;
 
-![presa USB](/assets/images/day2/board/porzioni_USB.png){: width="50%"}
+![presa USB]({{ site.baseurl }}/assets/images/day2/board/porzioni_USB.png){: width="50%"}
 
 * in alternativa si può usare un adattatore:
 
@@ -112,11 +112,11 @@ Per funzionare la scheda Arduino ha bisogno d'essere alimentata, ecco alcuni mod
 
 L'adattatore consigliato è un adattatore da **9 Volts** con polarità positiva al centro (per la polarità controlla che l'adattatore o la sua spina possieda una indicazione simile a quella mostrata qui di seguito).
 
-![immagine polarita](/assets/images/day2/adapter/power_supply_polarity_011.jpg)
+![immagine polarita]({{ site.baseurl }}/assets/images/day2/adapter/power_supply_polarity_011.jpg)
 
 Basta connetterlo alla apposita presa presente sulla scheda ed ecco fatto!
 
-![presa adattatore](/assets/images/day2/board/porzioni_AC_Connector.png){: width="50%"}
+![presa adattatore]({{ site.baseurl }}/assets/images/day2/board/porzioni_AC_Connector.png){: width="50%"}
 
 * Anche le batterie possono essere usate per alimentare la scheda. Le batterie, ad esempio, sono utilissime se il nostro oggetto interattivo deve funzionare lontano da una presa di corrente (magari ce ne occuperemo in qualche futuro esperimento!).
 
@@ -128,17 +128,17 @@ Senza entrare troppo nel dettaglio per ora (avremo modo di approfondire in segui
 
 * 6 pin dedicati agli ingressi analogici;
 
-![pin analogici](/assets/images/day2/board/porzioni_analog.png){: width="50%"}
+![pin analogici]({{ site.baseurl }}/assets/images/day2/board/porzioni_analog.png){: width="50%"}
 
 * 14 pin per gli ingressi digitali di cui 6 possono anche essere usati come ouptut (quelli che sulla scheda sono marcati con il carattere _tilde_ **~**).
 
-![pin digitali](/assets/images/day2/board/porzioni_digital.png){: width="50%"}
+![pin digitali]({{ site.baseurl }}/assets/images/day2/board/porzioni_digital.png){: width="50%"}
 
 ### LEDs di bordo
 
 La scheda Arduino UNO è dotata di alcuni LED che, accendendosi e spegnedosi, possono dare un'indicazione immediata sul suo funzionamento.
 
-![LEDs](/assets/images/day2/board/porzioni_LEDs.png){: width="50%"}
+![LEDs]({{ site.baseurl }}/assets/images/day2/board/porzioni_LEDs.png){: width="50%"}
 
 * uno di questi LED è etichettato come _ON_ e, come dice il nome stesso, si accende quando la scheda è in funzione;
 * due LED, rispettivamente _TX_ ed _RX_ (_trasmissione_ e _ricezione_), lampeggiano per indicare una comunicazione in corso, generalmente tra la scheda e il computer connesso tramite cavo USB;
@@ -160,7 +160,7 @@ Anche Arduino ha il proprio IDE e di certo la prima cosa da fare per cominciare 
 
 Per scaricare ed installare l'IDE di Arduino basta visitare il [sito ufficiale](https://www.arduino.cc) e seguire le istruzioni riportate nella sezione [Software/Download the Arduino IDE](https://www.arduino.cc/en/Main/Software): essendo un software multipiattaforma, l'IDE è disponibile per diversi sistemi operativi ed architetture hardware.
 
-[![Arduino IDE download](/assets/images/day2/IDE/arduino_IDE_download.png)](https://www.arduino.cc/en/Main/Software)
+[![Arduino IDE download]({{ site.baseurl }}/assets/images/day2/IDE/arduino_IDE_download.png)](https://www.arduino.cc/en/Main/Software)
 
 Per avere un ulteriore aiuto sui diversi passaggi necessari per lo scaricamento e l'installazione, consiglio di leggere le informazioni contenute nella pagina [Learning/Getting Started](https://www.arduino.cc/en/Guide/HomePage).
 
@@ -172,7 +172,7 @@ Per avere un ulteriore aiuto sui diversi passaggi necessari per lo scaricamento 
 ### IDE: Uno sguardo d'insieme
 
 Una volta installato, alla prima apertura l'IDE dovrebbe apparire così:
-![Arduino IDE](/assets/images/day2/IDE/IDE_general.png)
+![Arduino IDE]({{ site.baseurl }}/assets/images/day2/IDE/IDE_general.png)
 
 Come si vede, la grande porzione centrale di colore bianco ci suggerisce che l'IDE in fondo non differisce molto da un comune _editor di testo_.
 
@@ -181,13 +181,13 @@ Ogni volta che l'IDE viene aperto, viene creato in automatico un nuovo foglio di
 A questo nuovo programma l'IDE assegna un nome che si compone del termine _sketch_ e di una sigla associata alla data.
 Oggi, che scrivo queste parole, è il 21 Gennaio ed ecco spiegata l'intestazione della finestra e del tab.
 
-![IDE program name](/assets/images/day2/IDE/IDE_general_name.png)
+![IDE program name]({{ site.baseurl }}/assets/images/day2/IDE/IDE_general_name.png)
 
 Un programma scritto in Arduino prende di default il nome di **sketch**, rifacendosi al termine usato per il medesimo scopo dal linguaggio [Processing](https://processing.org/), un linguaggio di programmazione usato per realizzare disegni e grafiche interattive.
 
 Prima di proseguire è bene impostare la cartella dove salvare i nostri programmi. Questa cartella è chiamata **sketchbook** e la sua posizione all'interno del nostro file system può essere modificata liberamente: basta fare click sulla voce _Preferences_ dal menù _File_ e cambiare l'apposito campo _Sketchbook location_.
 
-![IDE Preferences](/assets/images/day2/IDE/IDE_preferences.png){: width="80%"}
+![IDE Preferences]({{ site.baseurl }}/assets/images/day2/IDE/IDE_preferences.png){: width="80%"}
 
 Come si vede dall'immagine, il mio sketchbook si trova all'interno della cartella ```/Arduino```, nella home del mio utente.
 
@@ -195,7 +195,7 @@ La cartella _sketchbook_ è molto importante perchè è la posizione in cui salv
 
 Infine, per salvare i propri programmi, è sufficiente fare click sulle voci _Save_ o _Save As_ dal menù a tendina _File_ ed eventualmente assegnare loro il nome che preferiamo. Ogni volta che salviamo un nuovo programma, viene generato un nuovo file con estensione ```.ino``` e viene posizionato all'interno di una cartella che prende il nome del file stesso all'interno dello sketchbook.
 
-![IDE sketchbook](/assets/images/day2/IDE/sketchbook.png)
+![IDE sketchbook]({{ site.baseurl }}/assets/images/day2/IDE/sketchbook.png)
 
 Quando diamo un nome ad un nuovo programma dobbiamo assicurarci che non contenga spazi, trattini (l'_underscore_ può essere usato) o che non inizi con un numero!
 
@@ -203,7 +203,7 @@ Quando diamo un nome ad un nuovo programma dobbiamo assicurarci che non contenga
 
 L'interfaccia dell'IDE mostra anche altri interessanti elementi. Nella parte alta della finestra infatti si possono notare questi 6 pulsanti:
 
-![IDE interface](/assets/images/day2/IDE/interface.png)
+![IDE interface]({{ site.baseurl }}/assets/images/day2/IDE/interface.png)
 
 Per ora lasciamo da parte i primi 2 e l'ultimo, torneremo ad occuparcene in seguito. Concentriamoci piuttosto sugli altri 3:
 * **New**: questo pulsante permette di creare un nuovo sketch;
@@ -212,7 +212,7 @@ Per ora lasciamo da parte i primi 2 e l'ultimo, torneremo ad occuparcene in segu
 
 Un altro elemento interessante è la sezione di colore nero che si trova nella parte bassa della finestra: si tratta della **console**.
 
-![IDE console](/assets/images/day2/IDE/IDE_console.png)
+![IDE console]({{ site.baseurl }}/assets/images/day2/IDE/IDE_console.png)
 
  Se i nostri programmi conterranno qualche errore oppure se ci saranno difficoltà nel caricarli sulla scheda, è qui che l'IDE di Arduino ce lo comunicherà.
 
