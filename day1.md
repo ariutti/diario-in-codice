@@ -39,9 +39,11 @@ Il computer non ha idea di come risolvere i nostri problemi; sembra paradossale 
 
 Chiedo scusa ma, dal momento che siamo noi a farci problemi e sempre noi evidentemente ad intuirne i procedimenti risolutivi (se non a conoscerli passaggio per passaggio), perchè non ce li risolviamo da soli?
 
-La chiave sta nella _velocità_: per quanto complicato un problema, a patto di conoscerne un percorso risolutivo, il computer sarà molto più veloce di noi a completarlo.
+La chiave sta nella _velocità_ e nell'_affidabilità_.
 
-Ne segue che calcoli molto difficili, che richiederebbero anni per essere terminati da un essere umano, possono essere completati in frazioni di secondo se eseguiti da un elaboratore.
+Per quanto complicato sia un problema, a patto di conoscerne un percorso risolutivo, il computer sarà molto più veloce di noi a completarlo. Ne segue che calcoli molto difficili, che richiederebbero anni per essere terminati da un essere umano, possono essere completati in frazioni di secondo se eseguiti da un elaboratore.
+
+Inoltre l'elaboratore è molto più bravo dell'uomo nell'eseguire compiti ripetitivi senza commettere errori.
 
 In certi casi allora è molto meglio affidarsi ad un computer:
 

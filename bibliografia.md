@@ -9,7 +9,7 @@ La lista è incompleta ed è stata compilata in base alla personale esperienza d
 ## Libri
 * Silvio Henin, "_Il computer dimenticato_", Hoeli 2015.
 * Bruce Sterling, "_Giro di Vite contro gli hackers_", Mondadori 2004.
-* Richard Stallman, "_Software Libero, Pensiero Libero_" Nuovi Equilibri, 2003.
+* Richard Stallman, "_Software Libero, Pensiero Libero_" Nuovi Equilibri, 2003. [Qui](http://www.stampalternativa.it/liberacultura/books/softlib1.pdf) un link alla versione scaricabile in pdf;
 * Tim Bell, Ian H. Witten and MikeFellows, "_Computer Science Unplugged_", ecco il [link](http://csunplugged.org/wp-content/uploads/2016/02/csunplugged-it.2015.1.0.pdf) alla versione italiana scaricabile in _pdf_;
 
 ---

@@ -9,8 +9,7 @@ Bentrovato!
 
 Eccomi di ritorno dopo qualche settimana di silenzio. Mi spiace non essere riuscito a postare prima, sono state settimane intense che però non mi hanno impedito di raccogliere nuove informazioni e proseguire il lavoro sul libro **Diario in codice** (se è la prima volta che ne senti parlare dai un'occhiata [qui](https://www.produzionidalbasso.com/project/diario-in-codice/)
 
-
-![logo ePub](http://www.limulo.net/images/diario-in-codice/logo_epub.jpg)
+![logo ePub]({{ site.baseurl }}/assets/images/blog/logo_epub.jpg){: width="20%"}
 
 Come prima cosa credo di avere individuato lo strumento ideale per la creazione della versione ePub del libro: si tratta di un programma che permette di creare un file _.epub_ a partire da un semplice file di testo opportunamente formattato.
 
@@ -27,15 +26,15 @@ Dopo aver speso un po' di tempo su _Calibre_, ho trovato un altro programma (lib
 Come funziona? in pratica si prepara un file di testo opportunamente formattato poi si invoca _pandoc_ con gli opportuni settaggi e si otterrà in uscita il libro in formato _.epub_, pronto per essere letto sul nostro ereader.
 
 
-![repository download](http://www.limulo.net/images/diario-in-codice/Pandoc-conversion-01.png)
+![repository download]({{ site.baseurl }}/assets/images/blog/Pandoc-conversion-01.png)
 
 Quando dico che il file di testo deve essere formattato in modo opportuno non intendo nulla di particolarmente compicato. In pratica, nello scriverlo, occorrerà rispettare alcune regole per permettere a _pandoc_ di capire ad esempio quando certe parole debbano essere rese in corsivo oppure in grassetto, quale sia la gerarchia dei titoli, quali gli elementi da rappresentare sottoforma di lista e così via.
 
-Queste regole sono un po' quelle che accomunano i vari linguaggi così detti di[markdown](https://en.wikipedia.org/wiki/Markdown), facciamo un esempio.
+Queste regole sono un po' quelle che accomunano i vari linguaggi così detti di [markdown](https://en.wikipedia.org/wiki/Markdown), facciamo un esempio.
 
 Ecco una frase scritta in linguaggio markdown che contiene alcuni indicatori per _pandoc_: le due parole circondate dall'_underscore_ e dai doppi asterischi saranno rispettivamente mostrate in corsivo e grassetto una volta che il documento sarà convertito in _ePub_!
 
-<pre>Ecco come scrivere in _corsivo_, ecco invece come rendere il **grassetto**!</pre>
+Ecco come scrivere in ```_corsivo_```, ecco invece come rendere il ```**grassetto**```!
 
 Come ho anticipato, il linguaggio di markdown per _pandoc_ è davvero molto potente e permette di agire con grande precisione sul modo in cui il nostro contenuto verrà mostrato, tuttavia per agire ancora più nel dettaglio è possibile aggiungere i fogli di stile.
 
@@ -45,14 +44,13 @@ I folgi di stile sono quei files che portano estensione **.css** e che se hai ma
 
 Inserendo i fogli di stile, includendo immagini e magari anche fonts personalizzati il processo di creazione di un ebook attraverso _pandoc_ potrebbe diventare davvero molto articolato.
 
-
-![repository download](http://www.limulo.net/images/diario-in-codice/Pandoc-conversion-02.png)
+![repository download]({{ site.baseurl }}/assets/images/blog/Pandoc-conversion-02.png)
 
 Come sempre, per imparare un nuovo programma bisogna usarlo, così ho cominciato subito a sperimetare. Ho deciso di scrivere qualcosa di nuovo, di non troppo lungo ma che già includesse alcuni degli elementi che poi saranno presenti anche nel libro come un indice, una immagine di copertina, una illustrazione, parole enfatizzate in grassetto e in corsivo, citazioni, note e perfino alcuni link!
 
 ### Downloads
 
-![GitHub Octovat](http://www.limulo.net/images/logos/github-octocat.jpg)
+![GitHub Octocat](http://www.limulo.net/website/assets/images/logos/github-octocat.jpg){: width="30%"}
 
 Ho riassunto a parole i contenuti principali dell'[incontro tenutosi il 19 Maggio]({% post_url 2016-05-19-game-over-room %}) presso la _Game Over Room_ del Leoncavallo a Milano e ne ho ricavato un breve libello di circa una quindicina di pagine. Al momento sto aggiustando gli ultimi dettagli e l'esportato definitivo non è ancora disponibile ma nel frattempo vorrei condividerne il [link al repository GitHub](https://github.com/ariutti/book-test).
 
@@ -62,20 +60,20 @@ Se vuoi da qui potrai scaricare i file in formato markdown (estensione _.md_) e 
 
 Potrai anche scaricare l'intero progetto e, installato _pandoc_, provare tu stesso a creare la tua versione del libello in formato _.epub_!
 
-![repository download](http://www.limulo.net/images/diario-in-codice/repo-download.gif)
+![repository download]({{ site.baseurl }}/assets/images/blog/repo-download.gif)
 
 Nella sezione <b>issues</b> puoi vedere i problemi che sto riscontrando al momento e che vorrei risolvere prima di ottenere la versione _ePub_ definitiva.
 
-
-![repository issues](http://www.limulo.net/images/diario-in-codice/repo-issues.png)
+![repository issues]({{ site.baseurl }}/assets/images/blog/repo-issues.png)
 
 Nel repository è contenuto anche un file denominato _convert.sh_ che è quello che uso per velocizzare il processo di conversione. Al momento il file riporta il comando da usare da terminale per invocare _pandoc_.
 
-<pre class="code">
+```
 pandoc -s --toc --toc-depth=2 \
---epub-stylesheet='epub/style.css' --epub-cover-image='epub/cover.png' \
+--epub-stylesheet='epub/style.css' \
+--epub-cover-image='epub/cover.png' \
 -o export/book-test.epub chapters/01-chapter1.md
-</pre>
+```
 
 Come vedi si tratta di un comando molto lungo e che potenzialmente potrebbe diventare ancora più lungo. Onde evitare di digitare tutto questo a terminale ogni volta, con il rischio di commettere qualche errore, ho pensato fosse più semplice creare un piccolo script da richiamare all'occorrenza.
 

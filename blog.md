@@ -14,13 +14,13 @@ Buon divertimento!
 
 Ecco i link per consultare tutti i report sull'andamento della campagna di crowdfunding:
 
-* Report [31 Maggio](http://www.limulo.net/resources/diario-in-codice/report_310516.pdf);
-* Report [23 Maggio](http://www.limulo.net/resources/diario-in-codice/report_230516.pdf);
-* Report [16 Maggio](http://www.limulo.net/resources/diario-in-codice/report_160516.pdf);
-* Report [9 Maggio](http://www.limulo.net/resources/diario-in-codice/report_090516.pdf);
-* Report [2 Maggio](http://www.limulo.net/resources/diario-in-codice/report_020516.pdf);
-* Report [26 Aprile](http://www.limulo.net/resources/diario-in-codice/report_260416.pdf);
-* Report [18 Aprile](http://www.limulo.net/resources/diario-in-codice/report_180416.pdf);
+* Report [31 Maggio]({{ site.baseurl }}/assets/downloads/report_310516.pdf);
+* Report [23 Maggio]({{ site.baseurl }}/assets/downloads/report_230516.pdf);
+* Report [16 Maggio]({{ site.baseurl }}/assets/downloads/report_160516.pdf);
+* Report [9 Maggio]({{ site.baseurl }}/assets/downloads/report_090516.pdf);
+* Report [2 Maggio]({{ site.baseurl }}/assets/downloads/report_020516.pdf);
+* Report [26 Aprile]({{ site.baseurl }}/assets/downloads/report_260416.pdf);
+* Report [18 Aprile]({{ site.baseurl }}/assets/downloads/report_180416.pdf);
 
 ## Posts
 

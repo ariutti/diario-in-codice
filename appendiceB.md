@@ -3,8 +3,11 @@ layout: page
 title: Appendice B - Software FLOSS
 ---
 
-Work in progress!
+Questa appendice sarà presto disponibile, nel frattempo ecco alcuni link per approfondire le tematiche legate al software libero e Open-Source:
 
+* definizione di [Software Libero](https://it.wikipedia.org/wiki/Software_libero) dalla pagina Wikipedia dedicata;
+* definizione di [Software Libero](https://www.gnu.org/philosophy/free-sw.it.html) dal sito gnu.org;
+* [testo integrale](http://www.stampalternativa.it/liberacultura/books/softlib1.pdf) del libro "_Software Libero, Pensiero Libero_", una raccolta di pensieri e saggi di Richard Stallman, fondatore del progetto GNU e portavoce del movimento per il software libero;
 
 {% comment %}
 

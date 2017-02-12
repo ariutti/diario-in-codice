@@ -3,7 +3,9 @@ layout: page
 title: Appendice A - Elettricità, le basi
 ---
 
-Work in progress!
+Questa appendice sarà presto disponibile!
+
+{% comment %}
 
 ## Elektron
 
@@ -19,17 +21,9 @@ Strofiniamo poi con un panno di lana un'estremità della bacchetta sospesa e l'e
 
 * se le due bacchette sono entrambe di vetro o entrambe di plastica, gli estremi elettrizzati si respingono;
 
-{% comment %}
-![esperimento bacchette repulsione 1 ](/assets/images/appendice_A/bacchette_plastica.png){: width="100%"} | ![esperimento bacchette repulsione 2 ](/assets/images/appendice_A/bacchette_vetro.png){: width="100%"}
-{% endcomment %}
-
 ![esperimento bacchette repulsione 1 ](/assets/images/appendice_A/bacchette-repulsione-01.png){: width="100%"} | ![esperimento bacchette repulsione 2 ](/assets/images/appendice_A/bacchette-repulsione-02.png){: width="100%"}
 
 * se una bacchetta è di vetro e l'altra è di plastica, gli estremi elettrizzati si attraggono;
-
-{% comment %}
-![esperimento bacchette attrazioni 3 ](/assets/images/appendice_A/bacchette_pv.png){: width="60%"}
-{% endcomment %}
 
 ![esperimento bacchette attrazioni 3 ](/assets/images/appendice_A/bacchette-attrazione.png){: width="60%"}
 
@@ -59,7 +53,6 @@ Un oggetto diviene in grado di respingere o attrarre a sé altri oggetti anch'es
 
 TO BE CONTINUED
 
-{% comment %}
 ## Conduttori ed isolanti
 
 Continuando sulla strada delle caratteristiche elettriche della materia potremmo dividere tutte le sostanze presenti in natura in due grandi macro categorie e dire, semplificando un poco, che esistono:

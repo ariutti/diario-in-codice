@@ -3,121 +3,128 @@ layout: page
 title: Capitolo 2 - Arduino
 ---
 
-**Work in progress!**
-
-
-
-Dopo aver introdotto i principali argomenti di cui ci occuperemo, la _programmazione_ e la scrittura di codice, facciamo la conoscenza di **Arduino**, la piattaforma che useremo per sperimentare nella pratica i nostri primi programmi!
+Dopo aver introdotto i principali argomenti di cui ci occuperemo, la programmazione e la scrittura di codice, facciamo la conoscenza di **Arduino**, la piattaforma che useremo per sperimentare nella pratica i nostri primi programmi!
 
 ## Physical Computing
 
-![Physical computing](/assets/images/day2/physical_computing.png)
+Che cosa è un dispositivo **interattivo**?
 
-Che cosa è un dispositivo **interattivo**? E' un dispositivo che, dati degli impulsi provenienti dal mondo esterno, captati tramite **sensori** di diverso tipo, reagisce secondo un **comportamento** ben preciso, sia esso di tipo meccanico, elettrico oppure software, tramite altri dispositivi appositi detti **attuatori**.
+![Physical computing](/assets/images/day2/physical_computing.png){: width="80%"}
 
-![sensori (sensazione/percezione) → comportamento (software) → attuatori (azione/reazione)](a)
+E' un dispositivo che dispone di elementi capaci di captare gli impulsi provenienti dal mondo esterno, detti **sensori**. In base agli impulsi esterni, il dispositivo reagisce assumendo un particolare **comportamento**, che può essere di tipo meccanico, elettrico o software. Gli elementi tramite cui interviene sul mondo esterno sono detti **attuatori**.
 
-Se l’_interaction design_ è la disciplina che studia la progettazione delle esperienze interattive, il **physical computing** (o _physical interaction design_) è un suo specifico campo di applicazione su sistemi fisici ed è proprio qui, al confine tra software e hardware, che entra in gioco **Arduino**!
+Un semplice esempio di oggetto interattivo è la lampada da tavolo: essa è in grado di captare impulsi provenienti dall'esterno, come la pressione o il rilascio dell'interruttore (sensore). Al suo interno, una serie di parti meccaniche ed elettriche (comportamento) si attivano in base allo stato dell'interruttore, e le  consentono di dare luce all'ambiente attraverso una lapadina (attuatore).
+
+Se l’_interaction design_ è la disciplina che studia la progettazione delle esperienze interattive, il **physical computing** (o _physical interaction design_) è un suo specifico campo di applicazione su sistemi fisici; è proprio qui, al confine tra software e hardware, che entra in gioco **Arduino**!
 
 ## Arduino
 
 <a title="See page for author [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AArduino_Logo.svg"><img width="50%" alt="Arduino Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/512px-Arduino_Logo.svg.png"/>
 </a>
 
-Il progetto **Arduino** è nato in Italia attorno all’anno 2005 ed è il nome con cui si identificano particolari schede elettroniche e l'ambiente di sviluppo con cui queste possono essere programmate.
+Il progetto **Arduino** è nato in Italia attorno all’anno 2005. 'Arduino' è il nome con cui si identificano particolari schede elettroniche e l'ambiente di sviluppo con cui possono essere programmate.
 
-Arduino può percepire l’ambiente circostante ricevendo input da una grande varietà di sensori e può interagire con esso controllando luci, motori e tantissimi altri attuatori. Arduino e’ stato pensato per artisti, designers, hobbysti e chiunque sia interessato a creare **oggetti interattivi**.
+Arduino può percepire l’ambiente circostante interfacciandosi con una grande varietà di sensori e può interagire con esso controllando luci, motori e tantissimi altri attuatori. Arduino e’ stato pensato per artisti, designers, hobbysti e chiunque sia interessato a creare **oggetti interattivi**.
 
-A ben vedere, ogni volta che usiamo il nostro computer stiamo utilizzando un oggetto interattivo: il computer riceve inputs da speciali sensori, il mouse e la tastiera, e reagisce producendo outputs sottoforma di segnali video o audio tramite speciali attuatori quali il display e gli speakers.
+A ben vedere, ogni volta che usiamo il nostro computer stiamo utilizzando un oggetto interattivo: il computer riceve **input** da speciali sensori (il mouse e la tastiera) e reagisce producendo **output** sottoforma di segnali video o audio tramite speciali attuatori quali il display e gli speakers.
 
-Grazie ad Arduino, il nostro computer può espandere le proprie possibilità di interagire con il mondo esterno.
-Una scheda Arduino infatti può essere connessa al nostro pc:
-* per ottenere informazioni altrimenti impossibili da misurare con soli mouse e tastiera come l'umidità dell'aria, la temperatura, la quantità di luce oppure ancora la distanza rispetto ad un ostacolo o l'inclinazione rispetto all'asse magnetico terrestre;
-* per permettergli di comadare meccanismi, pilotare motori, illuminare LED o display di diverso tipo e così via.
+Arduino può essere usato in abbinamento con il nostro computer, espandendone così le possibilità di interazione con il mondo esterno, ad esempio:
+* per ottenere informazioni impossibili da misurare con soli mouse e tastiera quali ad esempio l'umidità dell'aria, la temperatura o la quantità di luce nell'ambiente, o ancora, la distanza rispetto ad un ostacolo o l'inclinazione rispetto all'asse magnetico terrestre;
+* per controllare meccanismi, pilotare motori, illuminare LED o display di diverso tipo e così via.
 
-Le schede Arduino possono essere utilizzate anche indipendentemente dal computer per realizzare oggetti interattivi completamente autosufficienti!
+Le schede Arduino possono anche essere usate usate in modo indipendente, per realizzare oggetti interattivi completamente autosufficienti!
 
-Interazione tuttavia non è soltanto il raccogliere stimoli ma soprattutto elaborarli secondo una serie di regole. Queste regole definiscono il **comportamento** dell'oggetto interattivo.
+Interazione tuttavia non significa soltanto raccogliere stimoli, ma soprattutto elaborarli secondo una serie di regole. Queste regole definiscono il **comportamento** dell'oggetto interattivo.
 
 Grazie ad Arduino il comportamento può essere cambiato con grande facilità tutte le volte che vogliamo attraverso la programmazione: Arduino infatti è anche il nome del linguaggio di programmazione che impareremo a conoscere già dal prossimo capitolo.
 
-In altre parole, questo significa che non c'è bisogno d'essere grandi esperti dell'elettrotecnica o dell'elettronica per creare i nostri primi prototipi, basta conoscere il linguaggio Arduino assieme a qualche semplice rudimento tecnico e il gioco è fatto!
+In altre parole, questo significa che per creare i nostri primi prototipi non c'è bisogno d'essere grandi esperti di elettrotecnica o elettronica, basta conoscere il linguaggio di programmazione e qualche semplice rudimento tecnico; ed il gioco è fatto!
 
----
+### Open Source
 
-## discorso OPEN SOURCE (TODO)
+Di non poca importanza è il fatto che tutti i prodotti Arduino sono distribuiti come hardware e software **open-source** (a codice aperto), il che permette a chiunque di produrre e distribuire le schede Arduino oppure di realizzarne altre derivate senza alcuna limitazione.
 
-Soprattutto grazie alla sua filosofia **Open Source**, nel corso del tempo Arduino è stato la linfa vitale per la crescita di una gigantesca comunità di utenti entusiati per la sua immediatezza e facilità d’uso.
+Tutto il software con cui Arduino funziona, IDE e librerie, è distribuito con una licenza di tipo _permissivo_ che rispetta i dettami del movimento del **software libero** e garantisce trasparenza e libertà a tutti gli utenti.
 
----
+Se sei interessato ad approfondiere questi argomenti, secondo me davvero molto importanti, ti invito a dare uno sguardo all'apposita [appendice]({{site.baseurl}}/appendiceB/).
 
 ## Primi passi
 
-Per avvicinarsi al mondo Arduino può essere una buona idea visitare il [sito ufficiale](https://www.arduino.cc/) per raccogliere informazioni aggiuntive, per dare uno sguardo ai numerosi progetti realizzati dalla comunità degli utenti o semplicemente per esaminare le diverse schede disponibili.
+Per avvicinarsi al mondo Arduino può essere una buona idea visitare il [sito ufficiale](https://www.arduino.cc/) per raccogliere informazioni aggiuntive, dare uno sguardo ai numerosi progetti realizzati dalla comunità o semplicemente esaminare i diversi modelli di schede disponibili.
 
-Infatti esistono di diversi tipi di schede Arduino, una può essere megliore dell'altra a seconda delle particolare esigenze del proprio progetto, tuttavia mi sento di consigliarti la scheda **[UNO](https://www.arduino.cc/en/Main/ArduinoBoardUno)** che incorpora tutte le caratteristiche che esamineremo assieme nel corso del libro.
+Esistono infatti di diversi tipi di scheda Arduino, ognuna ottimizzata per specifiche aree di applicazione. A seconda delle particolari esigenze una può risultare più adatta di altre, tuttavia mi sento di consigliare la scheda **[UNO](https://www.arduino.cc/en/Main/ArduinoBoardUno)** che incorpora tutte le caratteristiche che esamineremo assieme nel corso del libro, ottima per iniziare!
 
-Anche se all'inizio potrebbero confondere, i due nomi **Arduino** e **Genuino**, presenti entrambi sul sito ufficiale, rappresentano in sostanza la stessa cosa: una scheda Arduino UNO ad esempio è del tutto identica ad una Genuino UNO e così vale per tutti gli altri modelli di scheda (i due diversi marchi sono stati introdotti qualche tempo fa a causa di alcune divergenze interne tra i membri fondatori del progetto Arduino).
-{: class="note"}
+<div class="note">
+<p>Navigando sul sito ufficiale di Arduino potreste incappare anche nel marchio <em>Genuino</em>. All'inizio la cosa potrebbe confondere ma i due nomi <b>Arduino</b> e <b>Genuino</b>, rappresentano in sostanza la stessa cosa: una scheda Arduino UNO ad esempio è del tutto identica ad una Genuino UNO e così vale per tutti gli altri modelli di scheda.</p>
+
+<p>I due diversi marchi sono stati introdotti qualche tempo fa a causa di alcune divergenze interne tra i membri fondatori del progetto Arduino. Ad oggi le divergenze sembrerebbe si siano appianate ma vedo che i 2 nomi sono ancore presenti in qualche pagina del sito web...</p>
+</div>
 
 Potrebbe essere una buona idea valutare l'acquisto di uno **starter kit**, che oltre alla scheda UNO, contiene anche una serie di altre componenti di base, molto utili per fare i primi esperimenti.
 
-In alternativa, tutto il materiale che utilizzeremo potrà essere facilmente acquistato di volta in volta in qualsiasi negozio di componenti per elettronica oppure anche on-line (vedi l'[appendice]({{ site.baseurl }}{% link riferimenti.md %}) per qualche riferimento in più).
+In alternativa, tutto il materiale che utilizzeremo potrà essere facilmente acquistato di volta in volta in qualsiasi negozio di componenti per l'elettronica oppure anche on-line (vedi l'[appendice]({{ site.baseurl }}{% link riferimenti.md %}) per qualche riferimento in più).
 
 ## Hardware
 
-Prima di passare al linguaggio di programmazione Arduino, diamo uno sguardo di insieme alla scheda e cerchiamo di capire di quali parti si compone.
+Prima di passare al linguaggio di programmazione Arduino, diamo uno sguardo d'insieme alla scheda e cerchiamo di capire di quali parti si compone.
 
 Ecco la scheda **Arduino UNO**!
 
-![Arduino UNO](/assets/images/day2/board/arduino-fritzing.png)
+![Arduino UNO real](/assets/images/day2/board/Arduino_photo_2.png)
 
-L'immagine potrebbe rappresentare la scheda in modo non del tutto esatto, il progetto Arduino è in continuo aggiornamento e così anche le schede subiscono delle revisioni, tuttavia il succo è sempre lo stesso: tutte le schede Arduino sono come dei piccoli computer in miniatura e come ogni computer possiedono:
+ed una sua immagine stilizzata che useremo come riferimento d'ora in avanti.
+
+![Arduino UNO fritzinf](/assets/images/day2/board/arduino-fritzing.png){: width="50%"}
+
+L'immagine potrebbe non rappresentare la scheda in modo del tutto esatto, il progetto Arduino è in continuo aggiornamento e così anche le schede subiscono delle revisioni.
+
+Il succo tuttavia è sempre lo stesso: tutte le schede Arduino sono come dei piccoli computer in miniatura e come ogni computer possiedono:
 * inputs;
 * ouputs;
 * una presa per l'alimentazione;
-* porte di comunicazione, per connettersi e scambiare dati con altri dispositivi.
+* diverse porte di comunicazione per connettersi e scambiare dati con altri dispositivi.
+
+Passiamo ora all'esplorazione della scheda. Senza entrare troppo nei dettagli ecco di seguito le principali componenti.
 
 ### Microcontrollore
 
-Un po' come un computer, anche la scheda Arduino UNO possiede un'unità centrale di controllo: si tratta del microchip chiamato **ATmega328P** appartenente alla famiglia dei microcontroller AVR prodotti dalla ditta Atmel.
+Un po' come un computer, anche la scheda Arduino UNO possiede un'unità centrale di controllo: si tratta del microchip **ATmega328P** appartenente alla famiglia dei microcontroller AVR prodotti dalla ditta Atmel.
 
 ![MICROCONTROLLORE](/assets/images/day2/board/porzioni_microcontroller.png){: width="50%"}
 
-Questo microcontroller è di fatto il cuore della scheda Arduino UNO: ad esso sono collegati tutti gli input e gli output (che vedremo a breve) ed è qui che il nostro programma viene eseguito per elaborare i dati in ingresso e restituire l'uscita corrispondente.
+Questo microcontroller è di fatto il cuore della scheda Arduino UNO: ad esso sono collegati tutti gli input e gli output ed è sempre qui che il nostro programma viene memorizzato e messo in esecuzione.
 
-Un po' come un normale computer legge files e programmi eseguibili dall'hard disk così il microcontrollore legge il proprio programma da una memoria contenuta al suo interno. Il programma eseguibile presente nella memoria del microcontrollore può essere cambiato tutte le volte che vogliamo, sovrascrivendo il contenuto della memoria con un nuovo eseguibile.
+Come un normale computer dispone di un hard disk e di altri tipi di dispositivi per memorizzare dati e programmi, anche il microcontrollore di Arduino dispone di una memoria interna che si può usare in modo del tutto identico.
 
-E' questa l'operazione con cui prenderemo presto dimestichezza e che esguiremo più e più volte connettendo la scheda Arduino al computer tramite il cavo USB ed effettuando il cosìdetto _upload_.
+Il programma eseguibile presente nella memoria del microcontrollore può essere sostituito con un nuovo programma tutte le volte che vogliamo, sovrascrivendo il contenuto della memoria. E' questa un'operazione con cui prenderemo presto dimestichezza e che eseguiremo più e più volte connettendo la scheda Arduino al computer tramite il cavo USB ed effettuando il cosìdetto _upload_.
 
 ### Alimentazione
 
-Per funzionare la scheda Arduino ha bisogno d'essere alimentata. Ci sono diversi modi per farlo:
+Per funzionare la scheda Arduino ha bisogno d'essere alimentata, ecco alcuni modo per farlo:
 
-* si può ad esempio utilizzare il cavo USB per connettere la scheda al computer. In tale caso Il cavo USB svolge una doppia funzione, da una parte ci permette di caricare nuovi programmi sulla scheda Arduino, dall'altra gli fornisce l'alimentazione necessaria per il suo funzionamento;
+* si può utilizzare il cavo USB per connettere la scheda al computer. In tal caso il cavo USB svolge una doppia funzione: da una parte ci permette di caricare nuovi programmi sulla scheda Arduino, dall'altra fornisce l'alimentazione necessaria per il funzionamento della scheda;
 
 ![presa USB](/assets/images/day2/board/porzioni_USB.png){: width="50%"}
-
 
 * in alternativa si può usare un adattatore:
 
 ![adattatore](https://upload.wikimedia.org/wikipedia/commons/7/7f/Wall-Wart-AC-Adapter.jpg){: width="50%"}
 
-L'adattatore consigliato è un adattatore da **9Volts** con polarità positiva al centro (per la polarità controlla che l'adattatore o la sua spina possieda una indicazione simile a quella mostrata qui di seguito).
+L'adattatore consigliato è un adattatore da **9 Volts** con polarità positiva al centro (per la polarità controlla che l'adattatore o la sua spina possieda una indicazione simile a quella mostrata qui di seguito).
 
 ![immagine polarita](/assets/images/day2/adapter/power_supply_polarity_011.jpg)
 
-Basta connetterlo alla apposita presa presente sulla scheda e il gioco è fatto!
+Basta connetterlo alla apposita presa presente sulla scheda ed ecco fatto!
 
 ![presa adattatore](/assets/images/day2/board/porzioni_AC_Connector.png){: width="50%"}
 
-* Anche le batterie possono essere usate per alimentare la scheda. Le batterie, ad esempio, sono utilissime se il nostro oggetto interattivo deve funzionare lontano da una presa di corrente (magari in qualche futuro esperimento vedremo anche come conneterle alla scheda)!
+* Anche le batterie possono essere usate per alimentare la scheda. Le batterie, ad esempio, sono utilissime se il nostro oggetto interattivo deve funzionare lontano da una presa di corrente (magari ce ne occuperemo in qualche futuro esperimento!).
 
 ### Ingressi e Uscite
 
 La scheda Arduino UNO possiede una serie di pin che permettono al microcontrollore di acquisire o inviare informazioni dal/al mondo esterno sottoforma di segnali elettrici.
 
-Senza entrare troppo nel dettaglio, visto che avremo modo di approfondire in seguito, ci basta sapere che abbiamo a disposizione:
+Senza entrare troppo nel dettaglio per ora (avremo modo di approfondire in seguito), ci basta sapere che abbiamo a disposizione:
 
 * 6 pin dedicati agli ingressi analogici;
 
@@ -129,62 +136,64 @@ Senza entrare troppo nel dettaglio, visto che avremo modo di approfondire in seg
 
 ### LEDs di bordo
 
-La scheda Arduino UNO è dotata di alcuni LED che, accendendosi e spegnedosi, possono dare una indicazione immediata sul suo funzionamento.
+La scheda Arduino UNO è dotata di alcuni LED che, accendendosi e spegnedosi, possono dare un'indicazione immediata sul suo funzionamento.
 
 ![LEDs](/assets/images/day2/board/porzioni_LEDs.png){: width="50%"}
 
-* uno di questi LED è etichettato come _ON_ e, come dice il nome stesso, si accende ad indicare che la scheda è funzionante;
-* due LED, rispettivamente _TX_ ed _RX_, lampeggiano per indicare una comunicazione in corso, generalmente tra la scheda e il computer connesso tramite cavo USB;
+* uno di questi LED è etichettato come _ON_ e, come dice il nome stesso, si accende quando la scheda è in funzione;
+* due LED, rispettivamente _TX_ ed _RX_ (_trasmissione_ e _ricezione_), lampeggiano per indicare una comunicazione in corso, generalmente tra la scheda e il computer connesso tramite cavo USB;
 * un ultimo LED, etichettato _L_, è connesso al pin digitale numero 13 e può essere usato per testare la scheda ed effettuare i primi esperimenti.
 
 ## Software
 
 Arduino è anche il nome del linguaggio con cui si scrivono i programmi per la scheda. Come ormai sappiamo, un programma altro non è se non un semplice documento di testo contenente tutte le istruzioni necessarie per la risoluzione di un particolare problema.
 
-Se volessimo scrivere al computer una mail, un messaggio o un generico documento di testo, sapremmo subito in che modo agire e che strumento utilizzare (basti pensare alla suite per ufficio [LibreOffice](https://www.libreoffice.org/) cui abbiamo accennato nel capitolo precedente).
+Se volessimo scrivere una mail, un messaggio o un generico documento di testo, sapremmo subito in che modo agire e che strumento utilizzare (basti pensare alla suite per ufficio [LibreOffice](https://www.libreoffice.org/) cui abbiamo accennato nel capitolo precedente).
 
-Allo stesso modo esistono strumenti appositamente pensati per i programmatori: questi software prendono il nome di **IDE**, una sigla che sta per <b>I</b>ntegrated <b>D</b>evelopment <b>E</b>nviroment, o ambienti di sviluppo integrato.
+Allo stesso modo esistono strumenti appositamente pensati per scrivere programmi: questi software prendono il nome di **IDE**, una sigla che sta per <b>I</b>ntegrated <b>D</b>evelopment <b>E</b>nviroment, o ambienti di sviluppo integrato.
 
-Questi IDE sono fondamentali nella cosiddetta _fase di sviluppo_ dei propri programmi: un IDE contiene al suo interno tutta una serie di funzionalità che rendono semplice la scrittura di codice, la correzione di eventuali errori e la compilazione.
+Questi IDE sono fondamentali nella cosiddetta _fase di sviluppo_ dei propri programmi. Un IDE contiene al suo interno tutta una serie di funzionalità che rendono semplice la scrittura di codice, la correzione di eventuali errori e la compilazione.
 
-Anche Arduino ha il proprio IDE e di certo, una delle prime cose da fare prima di cominciare a scrivere i nostri programmi, è quella di scaricarlo e installarlo sul proprio computer
+Anche Arduino ha il proprio IDE e di certo la prima cosa da fare per cominciare a scrivere i nostri programmi è quella di scaricarlo e installarlo sul proprio computer.
 
 ### Download ed installazione dell'IDE
 
-Per scaricare ed installare l'IDE di Arduino basta visitare il [sito ufficiale](https://www.arduino.cc) e seguire le istruzioni riportate nella sezione [Software/Download the Arduino IDE](https://www.arduino.cc/en/Main/Software) : essendo un software multipiattaforma, l'IDE è disponibile per diversi sistemi operativi ed architetture hardware.
+Per scaricare ed installare l'IDE di Arduino basta visitare il [sito ufficiale](https://www.arduino.cc) e seguire le istruzioni riportate nella sezione [Software/Download the Arduino IDE](https://www.arduino.cc/en/Main/Software): essendo un software multipiattaforma, l'IDE è disponibile per diversi sistemi operativi ed architetture hardware.
 
 [![Arduino IDE download](/assets/images/day2/IDE/arduino_IDE_download.png)](https://www.arduino.cc/en/Main/Software)
 
 Per avere un ulteriore aiuto sui diversi passaggi necessari per lo scaricamento e l'installazione, consiglio di leggere le informazioni contenute nella pagina [Learning/Getting Started](https://www.arduino.cc/en/Guide/HomePage).
 
+{% comment %}
 **TODO** aggiungi info sul web editor
 {: class="note"}
+{% endcomment %}
 
 ### IDE: Uno sguardo d'insieme
 
-Installato l'IDE e apertolo per la prima volta, ecco come dovrebbe appararire:
-
+Una volta installato, alla prima apertura l'IDE dovrebbe apparire così:
 ![Arduino IDE](/assets/images/day2/IDE/IDE_general.png)
 
-Come si vede, la grande porzione bianca al centro (che contiene già alcune righe di testo inserite automaticamente) ci suggerisce che l'IDE in fondo non differisce molto da un comune _editor di testo_.
+Come si vede, la grande porzione centrale di colore bianco ci suggerisce che l'IDE in fondo non differisce molto da un comune _editor di testo_.
 
-Ogni volta che l'IDE viene aperto, esso crea in automatico un nuovo foglio di testo pronto per accettare le istruzioni di un nuovo programma. A questo nuovo programma l'IDE assegna un nome che si compone del termine _sketch_ e di una sigla associata alla data.
+Ogni volta che l'IDE viene aperto, viene creato in automatico un nuovo foglio di testo pronto per accettare le istruzioni di un nuovo programma; alcune di queste istruzioni tra l'altro, come si può vedere, vengono già inserite in modo automatico.
 
+A questo nuovo programma l'IDE assegna un nome che si compone del termine _sketch_ e di una sigla associata alla data.
 Oggi, che scrivo queste parole, è il 21 Gennaio ed ecco spiegata l'intestazione della finestra e del tab.
 
 ![IDE program name](/assets/images/day2/IDE/IDE_general_name.png)
 
 Un programma scritto in Arduino prende di default il nome di **sketch**, rifacendosi al termine usato per il medesimo scopo dal linguaggio [Processing](https://processing.org/), un linguaggio di programmazione usato per realizzare disegni e grafiche interattive.
 
-Prima di proseguire è bene impostare la cartella dove salvare i nostri programmi. Questa cartella è chiamata **sketchbook** e la sua posizione all'interno del nostro file system può essere modificata: basta fare click sulla voce _Preferences_ dal menù a tendina _File_ e cambiare l'apposito campo _Sketchbook location_.
+Prima di proseguire è bene impostare la cartella dove salvare i nostri programmi. Questa cartella è chiamata **sketchbook** e la sua posizione all'interno del nostro file system può essere modificata liberamente: basta fare click sulla voce _Preferences_ dal menù _File_ e cambiare l'apposito campo _Sketchbook location_.
 
 ![IDE Preferences](/assets/images/day2/IDE/IDE_preferences.png){: width="80%"}
 
 Come si vede dall'immagine, il mio sketchbook si trova all'interno della cartella ```/Arduino```, nella home del mio utente.
 
-La cartella _sketchbook_ è molto importante perchè sarà la posizione in cui salveremo d'ora in avanti tutti i nostri progetti ed è in questa cartella inoltre che l'IDE salverà tutti i files associati alle nuove librerie installate, come vedremo meglio in seguito.
+La cartella _sketchbook_ è molto importante perchè è la posizione in cui salveremo tutti i nostri progetti d'ora in avanti; è in questa cartella inoltre che l'IDE salverà tutti i files associati alle nuove librerie installate, come vedremo meglio in seguito.
 
-Infine, per salvare i propri programmi, è sufficiente fare click sulle voci _Save_ o _Save As_ dal menù a tendina _File_ ed eventualmente assegnare loro il nome che preferiamo. Ogni volta che salviamo un nuovo programma, viene genera un nuovo file con estensione ```.ino``` e viene posizionato all'interno di una cartella, interna allo sketchbook, che prende il nome del file stesso.
+Infine, per salvare i propri programmi, è sufficiente fare click sulle voci _Save_ o _Save As_ dal menù a tendina _File_ ed eventualmente assegnare loro il nome che preferiamo. Ogni volta che salviamo un nuovo programma, viene generato un nuovo file con estensione ```.ino``` e viene posizionato all'interno di una cartella che prende il nome del file stesso all'interno dello sketchbook.
 
 ![IDE sketchbook](/assets/images/day2/IDE/sketchbook.png)
 
@@ -196,7 +205,7 @@ L'interfaccia dell'IDE mostra anche altri interessanti elementi. Nella parte alt
 
 ![IDE interface](/assets/images/day2/IDE/interface.png)
 
-Per ora lasciamo da parte i primi 2 e l'ultimo, di questi torneremo ad occuparci in seguito. Concentriamoci piuttosto sugli altri 3:
+Per ora lasciamo da parte i primi 2 e l'ultimo, torneremo ad occuparcene in seguito. Concentriamoci piuttosto sugli altri 3:
 * **New**: questo pulsante permette di creare un nuovo sketch;
 * **Load**: quest'altro invece permette di caricare uno sketch salvato in precedenza oppure di caricarne uno tratto dai file di esempio.
 * **Save**: Salva le modifiche apportate allo sketch.
@@ -209,13 +218,11 @@ Un altro elemento interessante è la sezione di colore nero che si trova nella p
 
 ## Conclusioni
 
-Abbiamo dato uno sguardo alla scheda Arduino dal punto di vista hardware, osservandola nelle sue diverse parti e abbiamo poi esaminato l'IDE, la parte software della piattaforma Arduino che ci accompagnerà lungo tutto il nostro percorso.
+Abbiamo dato uno sguardo alla scheda Arduino dal punto di vista hardware, osservandola nelle sue diverse parti e abbiamo poi esaminato l'IDE, la parte software della piattaforma che ci accompagnerà lungo tutto il nostro percorso.
 
 Nel prossimo capitolo cominceremo a scrivere le nostre prime righe di codice e vedremo come caricare i programmi sulla scheda. Approfondiremo alcuni altri aspetti dell'IDE e capiremo come decifrare i messaggi d'errore mostrati a console.
 
-
 {% include disqus-scripts.html %}
-
 
 {% comment %}
 
