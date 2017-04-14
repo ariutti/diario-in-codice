@@ -203,7 +203,7 @@ Per approfondire un poco ed avere allo stesso tempo un esempio pratico di quanto
 
 Il computer è una macchina che contiene parti meccaniche ed elettroniche di diverso tipo; nella sua memoria, oltre ai dati, sono archiviati anche i programmi, ognuno dei quali, come abbiamo detto, ha il compito di risolvere differenti categorie di problemi: usiamo quotidianamente, ad esempio, programmi per modificare le immagini, scrivere testi o inviare e-mail.
 
-Di computer ne esistono di diverso tipo, grandi o piccoli, con più o meno memoria, pensati per giocare oppure per l'ufficio e così via. Molti sono anche i tipi di **sistema operativo**: il programma che utilizziamo più spesso, anche se a volte non ce ne rendiamo conto.
+Di computer ne esistono di diversi tipi, grandi o piccoli, con più o meno memoria, pensati per giocare oppure per l'ufficio e così via. Molti sono anche i tipi di **sistema operativo**: il programma che utilizziamo più spesso, anche se a volte non ce ne rendiamo conto.
 
 Il sistema operativo è forse il programma più importante ed il suo compito è quello di creare una sorta di interfaccia astratta per facilitare l'uso del computer: é il sistema operativo che interviene per aiutarci quando connettiamo una nuova stampante, quando copiamo dati dal nostro disco fisso alla penna USB, che organizza tempi e risorse quando mettiamo in esecuzioni più programmi contemporaneamente o ne vogliamo installare di nuovi.
 

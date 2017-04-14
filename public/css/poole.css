@@ -438,3 +438,11 @@ a.pagination-item:hover {
   margin: 1em 0 2em;
   border-radius: 5px;
 }
+
+.dashed {
+  border: 2px dashed #ccc;
+  /* background-color: #ffd700; */
+  padding: 1em;
+  margin: 1em 0 2em;
+  border-radius: 5px;
+}

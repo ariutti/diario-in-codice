@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="971.39661"
+   height="1220.6664"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="blocchi_di_codice.svg"
+   inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/day3/blocchi_di_codice_setup_loop.png"
+   inkscape:export-xdpi="101.3636"
+   inkscape:export-ydpi="101.3636">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-70.06393"
+     inkscape:cy="573.19034"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer11"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="834"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs4">
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path4334" />
+    </marker>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter3802"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood3804"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.5" />
+      <feComposite
+         id="feComposite3806"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur3808"
+         result="blur"
+         stdDeviation="2" />
+      <feOffset
+         id="feOffset3810"
+         result="offset"
+         dy="4"
+         dx="4" />
+      <feComposite
+         id="feComposite3812"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter3814"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood3816"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.5" />
+      <feComposite
+         id="feComposite3818"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur3820"
+         result="blur"
+         stdDeviation="2" />
+      <feOffset
+         id="feOffset3822"
+         result="offset"
+         dy="4"
+         dx="4" />
+      <feComposite
+         id="feComposite3824"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter3802-7"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood3804-8"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.5" />
+      <feComposite
+         id="feComposite3806-9"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur3808-1"
+         result="blur"
+         stdDeviation="2" />
+      <feOffset
+         id="feOffset3810-5"
+         result="offset"
+         dy="4"
+         dx="4" />
+      <feComposite
+         id="feComposite3812-4"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter3814-9"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood3816-2"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.5" />
+      <feComposite
+         id="feComposite3818-5"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur3820-7"
+         result="blur"
+         stdDeviation="2" />
+      <feOffset
+         id="feOffset3822-4"
+         result="offset"
+         dy="4"
+         dx="4" />
+      <feComposite
+         id="feComposite3824-9"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter3802-9"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood3804-4"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.5" />
+      <feComposite
+         id="feComposite3806-5"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur3808-9"
+         result="blur"
+         stdDeviation="2" />
+      <feOffset
+         id="feOffset3810-3"
+         result="offset"
+         dy="4"
+         dx="4" />
+      <feComposite
+         id="feComposite3812-5"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2MendC"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2MendC">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke-linejoin:round;stroke:#00aa00;stroke-width:0.62500000;fill:#00aa00;fill-rule:evenodd"
+         id="path4786" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mendn"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendn">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke-linejoin:round;stroke:#ff0000;stroke-width:0.62500000;fill:#ff0000;fill-rule:evenodd"
+         id="path4789" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend1"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend1">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke-linejoin:round;stroke:#00aa00;stroke-width:0.62500000;fill:#00aa00;fill-rule:evenodd"
+         id="path4792" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:none"
+     transform="translate(-20.714261,34.61885)"
+     inkscape:label="block_only"
+     id="layer4"
+     inkscape:groupmode="layer">
+    <g
+       inkscape:label="grey_box"
+       id="layer6"
+       inkscape:groupmode="layer">
+      <rect
+         inkscape:export-ydpi="101.3636"
+         inkscape:export-xdpi="101.3636"
+         inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/day3/blocco_di_codice.png"
+         style="fill:#dcdcdc;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;filter:url(#filter3802-7)"
+         id="rect3866"
+         width="685.71429"
+         height="500"
+         x="38.000034"
+         y="22.094954"
+         ry="25.390854" />
+    </g>
+    <g
+       inkscape:label="code#1"
+       id="layer5"
+       inkscape:groupmode="layer">
+      <flowRoot
+         inkscape:export-ydpi="101.3636"
+         inkscape:export-xdpi="101.3636"
+         inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/day3/blocco_di_codice.png"
+         transform="translate(-14.944503,-61.495929)"
+         style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:'Tom\'s New Roman';-inkscape-font-specification:'Tom\'s New Roman'"
+         id="flowRoot3753-7"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3755-0"><rect
+             y="106.6479"
+             x="85.714287"
+             height="1171.4286"
+             width="682.85712"
+             id="rect3757-8" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3761-9">{</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3765-7">  istruzione 1</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3769-8">  istruzione 2</flowPara><flowPara
+           id="flowPara4179"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier">  istruzione 3</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3771-2">}</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3783-6" /><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3785-2" /></flowRoot>    </g>
+    <g
+       inkscape:label="text#1"
+       id="layer10"
+       inkscape:groupmode="layer">
+      <flowRoot
+         inkscape:export-ydpi="101.3636"
+         inkscape:export-xdpi="101.3636"
+         inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/day3/blocco_di_codice.png"
+         transform="translate(-33.864497,69.167595)"
+         style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:'Tom\'s New Roman';-inkscape-font-specification:'Tom\'s New Roman'"
+         id="flowRoot3826-1"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3828-2"><rect
+             y="123.79076"
+             x="762.85712"
+             height="225.71428"
+             width="277.14288"
+             id="rect3830-0" /></flowRegion><flowPara
+           style="text-align:center;line-height:100%;text-anchor:middle"
+           id="flowPara3832-7">blocco </flowPara><flowPara
+           style="text-align:center;line-height:100%;text-anchor:middle"
+           id="flowPara3834-3">di codice</flowPara></flowRoot>    </g>
+  </g>
+  <g
+     transform="translate(-20.714261,34.61885)"
+     style="display:none"
+     inkscape:label="setup_loop"
+     id="layer3"
+     inkscape:groupmode="layer">
+    <g
+       inkscape:label="grey_box#1"
+       id="layer7"
+       inkscape:groupmode="layer">
+      <rect
+         ry="25.390854"
+         y="15.38115"
+         x="89.28569"
+         height="500"
+         width="685.71429"
+         id="rect3798"
+         style="fill:#dcdcdc;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;filter:url(#filter3802-9)" />
+      <rect
+         style="fill:#dcdcdc;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;filter:url(#filter3814-9)"
+         id="rect3800"
+         width="685.71429"
+         height="555.15118"
+         x="89.28569"
+         y="575.38123"
+         ry="28.191525" />
+    </g>
+    <g
+       inkscape:label="code#2"
+       id="layer8"
+       inkscape:groupmode="layer">
+      <flowRoot
+         transform="translate(32.626919,-73.115313)"
+         style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:'Tom\'s New Roman';-inkscape-font-specification:'Tom\'s New Roman'"
+         id="flowRoot3753"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3755"><rect
+             y="106.6479"
+             x="85.714287"
+             height="1171.4286"
+             width="682.85712"
+             id="rect3757" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3759">void <flowSpan
+   id="flowSpan3793"
+   style="font-weight:bold;-inkscape-font-specification:Courier Bold">setup</flowSpan>()</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3761">{</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3765">  istruzione 1</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3769">  istruzione 2</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3771">}</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3773" /><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3775">void <flowSpan
+   id="flowSpan3795"
+   style="font-weight:bold;-inkscape-font-specification:Courier Bold">loop</flowSpan>()</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3777">{</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3779">  istruzione 1</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3787">  istruzione 2</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3789">  istruzione 3</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3791">}</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3781" /><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3783" /><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3785" /></flowRoot>    </g>
+    <g
+       inkscape:label="text"
+       id="layer9"
+       inkscape:groupmode="layer">
+      <flowRoot
+         transform="translate(-4.0073271,47.147581)"
+         style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:'Tom\'s New Roman';-inkscape-font-specification:'Tom\'s New Roman'"
+         id="flowRoot3826"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3828"><rect
+             y="123.79076"
+             x="762.85712"
+             height="225.71428"
+             width="277.14288"
+             id="rect3830" /></flowRegion><flowPara
+           style="text-align:center;text-anchor:middle"
+           id="flowPara3832">blocco </flowPara><flowPara
+           style="text-align:center;text-anchor:middle"
+           id="flowPara3834">SETUP</flowPara></flowRoot>      <flowRoot
+         xml:space="preserve"
+         id="flowRoot3836"
+         style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:'Tom\'s New Roman';-inkscape-font-specification:'Tom\'s New Roman'"
+         transform="translate(-4.0073271,647.14758)"><flowRegion
+           id="flowRegion3838"><rect
+             id="rect3840"
+             width="277.14288"
+             height="225.71428"
+             x="762.85712"
+             y="123.79076" /></flowRegion><flowPara
+           id="flowPara3842"
+           style="text-align:center;text-anchor:middle">blocco </flowPara><flowPara
+           id="flowPara3844"
+           style="text-align:center;text-anchor:middle">LOOP</flowPara></flowRoot>    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g4228"
+     inkscape:label="program-flow"
+     style="display:inline"
+     transform="translate(-20.714261,34.61885)">
+    <g
+       inkscape:groupmode="layer"
+       id="g4230"
+       inkscape:label="grey_box#1"
+       style="display:inline">
+      <rect
+         style="fill:#dcdcdc;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;filter:url(#filter3802-9)"
+         id="rect4232"
+         width="685.71429"
+         height="500"
+         x="89.28569"
+         y="15.38115"
+         ry="25.390854"
+         inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/day3/program-flow.png"
+         inkscape:export-xdpi="75.317375"
+         inkscape:export-ydpi="75.317375"
+         transform="matrix(1,0,0,0.80619048,0,2.9810134)" />
+      <rect
+         ry="28.191525"
+         y="575.38123"
+         x="89.28569"
+         height="555.15118"
+         width="685.71429"
+         id="rect4234"
+         style="fill:#dcdcdc;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline;filter:url(#filter3814-9)"
+         inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/day3/program-flow.png"
+         inkscape:export-xdpi="75.317375"
+         inkscape:export-ydpi="75.317375"
+         transform="matrix(1,0,0,1.1698379,0,-192.00726)" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="g4236"
+       inkscape:label="code#2"
+       style="display:inline">
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4238"
+         style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:'Tom\'s New Roman';-inkscape-font-specification:'Tom\'s New Roman'"
+         transform="translate(32.626919,-73.115313)"
+         inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/day3/program-flow.png"
+         inkscape:export-xdpi="75.317375"
+         inkscape:export-ydpi="75.317375"><flowRegion
+           id="flowRegion4240"><rect
+             id="rect4242"
+             width="682.85712"
+             height="1171.4286"
+             x="85.714287"
+             y="106.6479" /></flowRegion><flowPara
+           id="flowPara4244"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier">void <flowSpan
+   style="font-weight:bold;-inkscape-font-specification:Courier Bold"
+   id="flowSpan4246">setup</flowSpan>()</flowPara><flowPara
+           id="flowPara4248"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier">{</flowPara><flowPara
+           id="flowPara4252"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier">  istruzione 1</flowPara><flowPara
+           id="flowPara4254"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier">}</flowPara><flowPara
+           id="flowPara4256"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier" /><flowPara
+           id="flowPara4258"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier">void <flowSpan
+   style="font-weight:bold;-inkscape-font-specification:Courier Bold"
+   id="flowSpan4260">loop</flowSpan>()</flowPara><flowPara
+           id="flowPara4262"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier">{</flowPara><flowPara
+           id="flowPara4264"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier">  istruzione 1</flowPara><flowPara
+           id="flowPara4266"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier">  istruzione 2</flowPara><flowPara
+           id="flowPara4268"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier">  istruzione 3</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier"
+           id="flowPara3117">  istruzione 4</flowPara><flowPara
+           id="flowPara4270"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier">}</flowPara><flowPara
+           id="flowPara4272"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier" /><flowPara
+           id="flowPara4274"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier" /><flowPara
+           id="flowPara4276"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier" /></flowRoot>    </g>
+    <g
+       style="display:none"
+       inkscape:groupmode="layer"
+       id="g4278"
+       inkscape:label="text">
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4280"
+         style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:'Tom\'s New Roman';-inkscape-font-specification:'Tom\'s New Roman'"
+         transform="translate(-4.0073271,47.147581)"
+         inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/day3/blocchi_di_codice_setup_loop.png"
+         inkscape:export-xdpi="75.317375"
+         inkscape:export-ydpi="75.317375"><flowRegion
+           id="flowRegion4282"><rect
+             id="rect4284"
+             width="277.14288"
+             height="225.71428"
+             x="762.85712"
+             y="123.79076" /></flowRegion><flowPara
+           id="flowPara4286"
+           style="text-align:center;text-anchor:middle">blocco </flowPara><flowPara
+           id="flowPara4288"
+           style="text-align:center;text-anchor:middle">SETUP</flowPara></flowRoot>      <flowRoot
+         transform="translate(-4.0073271,587.14758)"
+         style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:'Tom\'s New Roman';-inkscape-font-specification:'Tom\'s New Roman'"
+         id="flowRoot4290"
+         xml:space="preserve"
+         inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/day3/blocchi_di_codice_setup_loop.png"
+         inkscape:export-xdpi="75.317375"
+         inkscape:export-ydpi="75.317375"><flowRegion
+           id="flowRegion4292"><rect
+             y="123.79076"
+             x="762.85712"
+             height="225.71428"
+             width="277.14288"
+             id="rect4294" /></flowRegion><flowPara
+           style="text-align:center;text-anchor:middle"
+           id="flowPara4296">blocco </flowPara><flowPara
+           style="text-align:center;text-anchor:middle"
+           id="flowPara4298">LOOP</flowPara></flowRoot>    </g>
+    <g
+       inkscape:label="arrows"
+       id="layer11"
+       inkscape:groupmode="layer"
+       style="display:inline">
+      <path
+         transform="translate(20.714261,-34.61885)"
+         inkscape:connector-curvature="0"
+         id="path4301"
+         d="m -2.8571429,77.809239 0,357.142861"
+         style="fill:#ff0000;stroke:#ff0000;stroke-width:12;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mendn)"
+         inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/day3/program-flow.png"
+         inkscape:export-xdpi="75.317375"
+         inkscape:export-ydpi="75.317375"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         style="fill:#000000;fill-opacity:1;stroke:#00aa00;stroke-width:12;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend1)"
+         d="m 23.571404,508.90467 0,583.14283"
+         id="path4747"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/day3/program-flow.png"
+         inkscape:export-xdpi="75.317375"
+         inkscape:export-ydpi="75.317375" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4749"
+         d="M 729.51628,1079.0829 C 960.94485,1030.5114 972.37343,521.65429 635.23057,527.36858"
+         style="fill:none;stroke:#00aa00;stroke-width:12;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2MendC)"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/day3/program-flow.png"
+         inkscape:export-xdpi="75.317375"
+         inkscape:export-ydpi="75.317375" />
+    </g>
+  </g>
+</svg>

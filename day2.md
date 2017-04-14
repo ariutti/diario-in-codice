@@ -130,7 +130,7 @@ Senza entrare troppo nel dettaglio per ora (avremo modo di approfondire in segui
 
 ![pin analogici]({{ site.baseurl }}/assets/images/day2/board/porzioni_analog.png){: width="50%"}
 
-* 14 pin per gli ingressi digitali di cui 6 possono anche essere usati come ouptut (quelli che sulla scheda sono marcati con il carattere _tilde_ **~**).
+* 14 pin per gli ingressi/uscite digitali (di cui 6 possono anche essere usati come uscite "analogiche", evidenziati sulla scheda con il carattere _tilde_ **~**).
 
 ![pin digitali]({{ site.baseurl }}/assets/images/day2/board/porzioni_digital.png){: width="50%"}
 
@@ -223,53 +223,3 @@ Abbiamo dato uno sguardo alla scheda Arduino dal punto di vista hardware, osserv
 Nel prossimo capitolo cominceremo a scrivere le nostre prime righe di codice e vedremo come caricare i programmi sulla scheda. Approfondiremo alcuni altri aspetti dell'IDE e capiremo come decifrare i messaggi d'errore mostrati a console.
 
 {% include disqus-scripts.html %}
-
-{% comment %}
-
----
-
-L'interfaccia però mostra anche altri interessanti elementi:
-* **Verify**: il pulsante Verify esegue una cross-compilazione e verifica eventuali errori nel programma;
-* **Upload**: il pulsante Upload compila il programma e lo carica sulla scheda Arduino;
-
-Sulla destra è posizonato un altro pulsante:
-* **Serial Monitor**: per comunicare con Arduino tramite il computer. Permette di vedere i dati inviati da Arduino al computer tramite la comunicazione seriale ma permette anche di inviare dati alla scheda Arduino.
-
-
-## Analisi dell'IDE
-
-Abbiamo detto che Arduino è un linguaggio di programmazione; questa definizione tuttavia non è completa perchè Arduino è anche il nome con cui ci si riferisce all’applicativo IDE. Per facilitare il processo di apprendimento del sistema Arduino, gli sviluppatori del team hanno creato un semplice ambiente di sviluppo integrato. Vediamo di che si tratta:
-
-Esso è costituito da un editor di testo grazie al quale è per noi possibile stendere il testo di un programma.
-
-E' anche presente un **compilatore** il quale permette la _traduzione_ delle istruzioni del programma in linguaggio macchina, pensato appositamente per la tipologia di microcotrollore traget (cross-compilazione). Per questo è importante indicare da subito quale sia il microcontroller target per il quale desideriamo sviluppare, e occorre verificare di possedere i driver adeguati (verificare)
-
-Un **loader**, la componente software che si occupa di caricare il codice macchina compilato sulla memoria interna del microcontrollore in modo tale che, al successivo riavvio, dopo l'esecuzione del boot loader, il programma venga messo in esecuzione.
-
-C’è anche un **debugger** il cui compito è quello di rilevare eventuali errori che possono essere presenti. Errori di
-lessico o di sintassi;
-o in fase di esecuzione del programma (run time error);
-
-Nella parte bassa scorgiamo una sezione di colore nero. Si tratta della console all'interno della quale Arduino ci comunicherà eventuali note, warnings o
-* problemi nella fase di compilazione: errori contenuti nel nostro programma
-* problemi relativi alal fase di loading sulla scheda
-* etc...
-
-Un **serial monitor**, un piccola componente software che facilita la visualizzazione e l'invio di messaggio da/a la scheda Arduino collegata via Cavo USB (comunicazione seriale appunto) vedremo meglio nel dettaglio
-
-Sono inoltre presenti anche altri tools e se ne possono installare altri per ingrandire le capacità dello strumento base:
-* serial plotter;
-* gestore delle librerie;
-
----
-
-Per programmare il nostro microcontroller ci serviremo di un linguaggio di programmazione denomianto Arduino. Questo linguaggio si basa si di un altro linguaggio, il linguaggio C e C++ (Arduino non è altro che un set di funzioni C/C++), due linguaggi a medio livello.
-Come ogni programma, anche quelli che scriveremo noi, per poter essere compresi, dovranno dapprima essere tradotti in linguaggio macchina attraverso la compilazione (**cross-compilazione**).
-
-Cominciamo allora!
-
-compilazione: compilatore gira sulla stessa macchina su cui verrà eseguito il programma compilatore
-Nel caso di Arduino avviene una cross compilazione
-(esamina parte finale del day1 per maggiori info)
-
-{% endcomment %}
