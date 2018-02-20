@@ -10,7 +10,7 @@ title:               Diario in codice
 tagline:             'imparare nuove parole'
 description:         'Diario in codice, indice'
 url:                 http://www.limulo.net
-baseurl:             ''
+baseurl:             '/diario-in-codice/'
 #paginate:            5
 
 # About/contact
