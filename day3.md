@@ -417,7 +417,7 @@ Per chi fosse curioso e volesse sin da subito raccogliere ancora più informazio
 
 {% comment %}
 
----
+--------------------------------------------------------------------------------------------------------------
 
 Sulla destra è posizonato un altro pulsante:
 * **Serial Monitor**: per comunicare con Arduino tramite il computer. Permette di vedere i dati inviati da Arduino al computer tramite la comunicazione seriale ma permette anche di inviare dati alla scheda Arduino.

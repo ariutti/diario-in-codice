@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="810.41626"
@@ -15,12 +16,36 @@
    version="1.1"
    inkscape:version="0.48.5 r10040"
    sodipodi:docname="pompa_01.svg"
-   inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/pompa_01.png"
-   inkscape:export-xdpi="114.61526"
-   inkscape:export-ydpi="114.61526"
+   inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+   inkscape:export-xdpi="113.72971"
+   inkscape:export-ydpi="113.72971"
    enable-background="new">
   <defs
      id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3909">
+      <stop
+         style="stop-color:#0086fe;stop-opacity:1;"
+         offset="0"
+         id="stop3911" />
+      <stop
+         style="stop-color:#0086fe;stop-opacity:0;"
+         offset="1"
+         id="stop3913" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3901">
+      <stop
+         style="stop-color:#0086fe;stop-opacity:1;"
+         offset="0"
+         id="stop3903" />
+      <stop
+         style="stop-color:#0086fe;stop-opacity:0;"
+         offset="1"
+         id="stop3905" />
+    </linearGradient>
     <marker
        inkscape:stockid="Arrow2Mend"
        orient="auto"
@@ -73,6 +98,24 @@
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
          transform="scale(0.4) rotate(180) translate(10,0)" />
     </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3901"
+       id="linearGradient3907"
+       x1="613.8656"
+       y1="533.677"
+       x2="669.8197"
+       y2="483.71854"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3909"
+       id="linearGradient3915"
+       x1="635.86737"
+       y1="480.58395"
+       x2="675.45605"
+       y2="414.66602"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -81,11 +124,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9899495"
-     inkscape:cx="401.89061"
-     inkscape:cy="160.20165"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="417.9463"
+     inkscape:cy="63.227006"
      inkscape:document-units="px"
-     inkscape:current-layer="g3962"
+     inkscape:current-layer="layer9"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -143,9 +186,9 @@
        id="path3954"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923" />
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
   </g>
   <g
      inkscape:label="containers"
@@ -160,18 +203,18 @@
        id="rect3753"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923" />
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path3782"
        d="m 634.28571,623.79074 c 82.85715,-24.28571 172.85714,-26.42857 252.85715,0 l 0,301.42856 -252.85715,0 z"
        style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923" />
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -188,9 +231,9 @@
        sodipodi:ry="80.714287"
        d="m 502.85714,624.51428 a 80.714287,80.714287 0 1 1 -161.42857,0 80.714287,80.714287 0 1 1 161.42857,0 z"
        transform="translate(-4.4447828,0.5765188)"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923" />
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -204,9 +247,9 @@
        id="path3788"
        d="m 653.3221,600.15348 -332.85715,0 0,-41.329 332.85715,0 z"
        style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923" />
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
   </g>
   <g
      style="display:inline"
@@ -220,9 +263,9 @@
        id="path3976"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923" />
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -282,7 +325,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer11"
-     inkscape:label="turbina-pale"
+     inkscape:label="turbina-blu"
      style="display:inline">
     <path
        sodipodi:type="arc"
@@ -294,89 +337,114 @@
        sodipodi:ry="80.714287"
        d="m 502.85714,624.51428 a 80.714287,80.714287 0 1 1 -161.42857,0 80.714287,80.714287 0 1 1 161.42857,0 z"
        transform="matrix(0.9522106,0,0,0.9522106,15.9791,30.678869)"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923" />
-    <g
-       transform="translate(0,-4.2070312e-6)"
-       style="display:inline"
-       id="g4336"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923">
-      <path
-         transform="matrix(2.093515,0,0,2.093515,-141.66217,-878.45438)"
-         d="m 283.85287,717.18964 a 16.414978,16.414978 0 1 1 -32.82995,0 16.414978,16.414978 0 1 1 32.82995,0 z"
-         sodipodi:ry="16.414978"
-         sodipodi:rx="16.414978"
-         sodipodi:cy="717.18964"
-         sodipodi:cx="267.4379"
-         id="path4313"
-         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         sodipodi:type="arc" />
-      <path
-         sodipodi:nodetypes="cccc"
-         inkscape:connector-curvature="0"
-         id="path4319"
-         d="m 417.69807,546.22129 0,76.7716 -19.04364,-24.1917 c 0,0 -2.16956,-25.30578 19.04364,-52.5799 z"
-         style="fill:#000000;fill-opacity:1;stroke:none" />
-      <path
-         inkscape:transform-center-y="-27.14286"
-         inkscape:transform-center-x="27.14286"
-         style="fill:#000000;fill-opacity:1;stroke:none"
-         d="m 363.41235,568.70717 54.28572,54.28572 -30.572,-3.64023 c 0,0 -19.428,-16.35978 -23.71372,-50.64549 z"
-         id="path4321"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccc" />
-      <path
-         sodipodi:nodetypes="cccc"
-         inkscape:connector-curvature="0"
-         id="path4323"
-         d="m 340.92647,622.99289 76.7716,0 -24.1917,19.04364 c 0,0 -25.30578,2.16956 -52.5799,-19.04364 z"
-         style="fill:#000000;fill-opacity:1;stroke:none"
-         inkscape:transform-center-x="38.3858"
-         inkscape:transform-center-y="9.5531013" />
-      <path
-         inkscape:transform-center-y="27.14286"
-         inkscape:transform-center-x="27.14286"
-         style="fill:#000000;fill-opacity:1;stroke:none"
-         d="m 363.41235,677.27861 54.28572,-54.28572 -3.64023,30.572 c 0,0 -16.35978,19.428 -50.64549,23.71372 z"
-         id="path4325"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccc" />
-      <path
-         sodipodi:nodetypes="cccc"
-         inkscape:connector-curvature="0"
-         id="path4327"
-         d="m 417.69807,699.76449 0,-76.7716 19.04364,24.1917 c 0,0 2.16956,25.30578 -19.04364,52.5799 z"
-         style="fill:#000000;fill-opacity:1;stroke:none"
-         inkscape:transform-center-x="-9.5531013"
-         inkscape:transform-center-y="38.3858" />
-      <path
-         inkscape:transform-center-y="27.14286"
-         inkscape:transform-center-x="-27.14286"
-         style="fill:#000000;fill-opacity:1;stroke:none"
-         d="m 471.98379,677.27861 -54.28572,-54.28572 30.572,3.64023 c 0,0 19.428,16.35978 23.71372,50.64549 z"
-         id="path4329"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccc" />
-      <path
-         sodipodi:nodetypes="cccc"
-         inkscape:connector-curvature="0"
-         id="path4331"
-         d="m 494.46967,622.99289 -76.7716,0 24.1917,-19.04364 c 0,0 25.30578,-2.16956 52.5799,19.04364 z"
-         style="fill:#000000;fill-opacity:1;stroke:none"
-         inkscape:transform-center-x="-38.3858"
-         inkscape:transform-center-y="-9.5531013" />
-      <path
-         inkscape:transform-center-y="-27.14286"
-         inkscape:transform-center-x="-27.14286"
-         style="fill:#000000;fill-opacity:1;stroke:none"
-         d="m 471.98379,568.70717 -54.28572,54.28572 3.64023,-30.572 c 0,0 16.35978,-19.428 50.64549,-23.71372 z"
-         id="path4333"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccc" />
-    </g>
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
+  </g>
+  <g
+     style="opacity:0.50955416;display:inline"
+     inkscape:label="turbina"
+     id="g3087"
+     inkscape:groupmode="layer">
+    <path
+       transform="matrix(2.093515,0,0,2.093515,-141.66217,-878.45438)"
+       d="m 283.85287,717.18964 a 16.414978,16.414978 0 1 1 -32.82995,0 16.414978,16.414978 0 1 1 32.82995,0 z"
+       sodipodi:ry="16.414978"
+       sodipodi:rx="16.414978"
+       sodipodi:cy="717.18964"
+       sodipodi:cx="267.4379"
+       id="path3091"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path3093"
+       d="m 417.69807,546.22129 0,76.7716 -19.04364,-24.1917 c 0,0 -2.16956,-25.30578 19.04364,-52.5799 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
+    <path
+       inkscape:transform-center-y="-27.14286"
+       inkscape:transform-center-x="27.14286"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 363.41235,568.70717 54.28572,54.28572 -30.572,-3.64023 c 0,0 -19.428,-16.35978 -23.71372,-50.64549 z"
+       id="path3095"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path3097"
+       d="m 340.92647,622.99289 76.7716,0 -24.1917,19.04364 c 0,0 -25.30578,2.16956 -52.5799,-19.04364 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:transform-center-x="38.3858"
+       inkscape:transform-center-y="9.5531013"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
+    <path
+       inkscape:transform-center-y="27.14286"
+       inkscape:transform-center-x="27.14286"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 363.41235,677.27861 54.28572,-54.28572 -3.64023,30.572 c 0,0 -16.35978,19.428 -50.64549,23.71372 z"
+       id="path3099"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path3101"
+       d="m 417.69807,699.76449 0,-76.7716 19.04364,24.1917 c 0,0 2.16956,25.30578 -19.04364,52.5799 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:transform-center-x="-9.5531013"
+       inkscape:transform-center-y="38.3858"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
+    <path
+       inkscape:transform-center-y="27.14286"
+       inkscape:transform-center-x="-27.14286"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 471.98379,677.27861 -54.28572,-54.28572 30.572,3.64023 c 0,0 19.428,16.35978 23.71372,50.64549 z"
+       id="path3103"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path3105"
+       d="m 494.46967,622.99289 -76.7716,0 24.1917,-19.04364 c 0,0 25.30578,-2.16956 52.5799,19.04364 z"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:transform-center-x="-38.3858"
+       inkscape:transform-center-y="-9.5531013"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
+    <path
+       inkscape:transform-center-y="-27.14286"
+       inkscape:transform-center-x="-27.14286"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 471.98379,568.70717 -54.28572,54.28572 3.64023,-30.572 c 0,0 16.35978,-19.428 50.64549,-23.71372 z"
+       id="path3107"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -390,18 +458,18 @@
        id="rect3756"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923" />
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
     <path
        sodipodi:nodetypes="cccccccc"
        inkscape:connector-curvature="0"
        id="path3843"
        d="m 638.23038,359.16589 c 32.82996,28.28427 61.07143,0 61.07143,0 31.8198,27.77919 61.07143,0 61.07143,0 32.82996,29.7995 61.07143,0 61.07143,0 33.33503,30.30458 61.07143,0 61.07143,0 l 0,254.57143 -244.28572,0 z"
        style="fill:#47e3ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923" />
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
   </g>
   <g
      style="display:none"
@@ -432,17 +500,20 @@
      inkscape:label="tubo-verticale"
      id="g3946"
      inkscape:groupmode="layer"
-     style="display:none"
+     style="display:inline"
      transform="translate(-77.739981,-14.151085)">
     <path
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
        id="path3950"
        d="m 204.03639,567.29677 -1e-5,-332.85715 23.42856,0 0,332.85715"
-       style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+       style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:groupmode="layer"
      id="g3982"
      inkscape:label="tubo-verticale-water"
@@ -452,83 +523,114 @@
        d="m 207.13601,567.29677 -1e-5,-332.85715 17.029,0 0,332.85715"
        id="path3984"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
     <path
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
        id="path3986"
        d="m 746.49656,415.42941 -2e-5,-231.63884 29.15083,0 0,231.63884"
        style="fill:#47e3ff;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
-       inkscape:export-xdpi="114.61526"
-       inkscape:export-ydpi="114.61526" />
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png" />
     <path
        style="fill:#47e3ff;fill-opacity:1;stroke:none"
        d="m 737.16625,199.6402 c 0,0 -6.56986,29.33519 -16.65383,20.7791 -10.08398,-8.5561 16.65383,-20.7791 16.65383,-20.7791 z"
        id="path3816"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czc" />
+       sodipodi:nodetypes="czc"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
     <path
        sodipodi:nodetypes="czc"
        inkscape:connector-curvature="0"
        id="path3818"
        d="m 780.85848,206.5393 c 0,0 27.32972,12.52209 16.86502,20.60806 -10.46472,8.08599 -16.86502,-20.60806 -16.86502,-20.60806 z"
-       style="fill:#47e3ff;fill-opacity:1;stroke:none" />
+       style="fill:#47e3ff;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
     <path
        style="fill:#47e3ff;fill-opacity:1;stroke:none"
        d="m 740.43152,234.98446 c 0,0 6.86686,29.26709 -5.9374,25.95898 -12.8043,-3.30812 5.9374,-25.95898 5.9374,-25.95898 z"
        id="path3820"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czc" />
+       sodipodi:nodetypes="czc"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="pompa"
-     style="display:none"
+     style="display:inline"
      transform="translate(-77.739981,-14.151085)">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path3809"
        d="m 179.33384,68.898479 c 36.42857,-20.35714 72.85714,0 72.85714,0 l 0,181.428561 c -37.85714,17.85714 -72.85714,0 -72.85714,0 z"
-       style="fill:#dadada;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+       style="fill:#dadada;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
     <path
        style="fill:#c6c6c6;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-opacity:1;display:inline"
        d="m 209.33384,18.327049 12.85714,0 0,53.42856 -12.85714,0 z"
        id="path3811"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
     <path
        style="fill:#aaaaaa;fill-opacity:1;stroke:#000000;stroke-opacity:1;display:inline"
        d="m 218.78628,28.600519 c -8.39286,3.92857 -48.24389,17.584 -56.07142,36.07143 -7.82753,18.48743 -28.47372,60.606271 -50.02644,77.467511 -21.552709,16.86124 -38.297619,7.0363 -33.679869,1.99332 4.61776,-5.04298 7.48359,5.5399 25.476269,-11.60293 17.99268,-17.14282 36.08718,-58.125761 47.87289,-78.572191 11.78571,-20.44643 55.19259,-40.22609 65.35713,-39.28571 10.16455,0.94038 9.46429,10 1.07144,13.92857 z"
        id="path3813"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="zzszszzz" />
+       sodipodi:nodetypes="zzszszzz"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
     <path
        sodipodi:nodetypes="zzccz"
        inkscape:connector-curvature="0"
        id="path3815"
        d="m 155.76242,50.827049 c 6.90782,-10.46124 12.4354,-7.79576 12.85714,0.35714 0.42175,8.15291 -9,29.14285 9.57143,41.64285 L 177.83385,107.4699 C 151.04814,103.89847 148.8546,61.288289 155.76242,50.827049 z"
-       style="fill:#c6c6c6;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-opacity:1;display:inline" />
+       style="fill:#c6c6c6;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
     <path
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 180.04141,70.229299 c 34.10714,18.392857 72.6494,0 72.6494,0"
        id="path3793"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="rubinetto"
-     style="display:none"
+     style="display:inline"
      transform="translate(-77.739981,-14.151085)">
     <path
        sodipodi:nodetypes="czccccccccc"
        inkscape:connector-curvature="0"
        id="path3847"
        d="m 743.00001,182.95161 c 0,0 4.75087,-32.39623 -7.21429,-43.71429 -11.96516,-11.31806 -36.08231,-16.79079 -49.21429,-16.28571 l -440.42858,0 c 0,0 -10.10153,-9.79148 0,-23.428543 l 440.42858,-5e-6 c 19.69797,0.505078 49.6615,1.627078 69.21429,16.285708 19.55279,14.65863 23.21429,67.71429 23.21429,67.71429 7.07107,5.55584 2,9.85714 2,9.85714 l -36,-0.28573 c 0,0 -8.81853,-2.31418 -2,-10.14286 z"
-       style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-opacity:1;display:inline" />
+       style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -542,18 +644,18 @@
        id="path3780"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923" />
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path3784"
        d="m 637.79705,318.34593 c 113.92857,47.5 246.23354,0 246.23354,0"
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923" />
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -563,20 +665,20 @@
     <g
        id="g4276"
        transform="matrix(0.88996896,0.26539432,-0.26094739,0.90513534,205.16764,-94.755242)"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923">
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043">
       <path
-         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#0086fe;fill-opacity:1;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:url(#linearGradient3907);fill-opacity:1;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
          d="m 660.35846,463.54167 c 0,0 -10.93434,39.40388 -89.68376,89.71957 l 7.37992,-17.92357 -54.16947,43.11924 68.86492,-8.08486 -20.20321,-7.94024 C 636.65748,543.49446 702.3166,482.16375 702.3166,482.16375 z"
          id="path3821"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccccccc" />
     </g>
     <g
-       inkscape:export-ydpi="115.923"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
+       inkscape:export-ydpi="113.71043"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
        transform="matrix(0.21186144,0.66932832,-0.67692639,0.22108212,432.54666,23.013564)"
        id="g5649">
       <path
@@ -584,14 +686,14 @@
          inkscape:connector-curvature="0"
          id="path5651"
          d="m 658.96594,405.46417 c 0,0 -6.12047,60.25057 -44.28014,84.6536 l 7.37992,-17.92357 -54.16947,43.11924 68.86492,-8.08486 -20.20321,-7.94024 C 680.23749,477.96177 698.90225,391.3698 698.90225,391.3698 z"
-         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#0086fe;fill-opacity:1;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:url(#linearGradient3915);fill-opacity:1;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
     </g>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="text G"
-     style="opacity:0.50318472;display:none"
+     style="opacity:0.50318472;display:inline"
      transform="translate(-77.739981,-14.151085)">
     <text
        xml:space="preserve"
@@ -599,7 +701,10 @@
        x="194.28572"
        y="245.52304"
        id="text3839"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043"><tspan
          sodipodi:role="line"
          id="tspan3841"
          x="194.28572"
@@ -616,26 +721,26 @@
        id="path4475"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923" />
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path4477"
        d="m 394.25131,348.49666 161.44676,0"
        style="fill:none;stroke:#787878;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:12, 12;stroke-dashoffset:0"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923" />
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
     <path
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
        d="m 417.69807,356.08545 0,122.41121"
        id="path4492"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043"
        sodipodi:nodetypes="cc" />
   </g>
   <g
@@ -649,9 +754,9 @@
        id="flowRoot3823"
        style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.50318472;fill:#000000;fill-opacity:1;stroke:none;font-family:'Tom\'s New Roman';-inkscape-font-specification:'Tom\'s New Roman'"
        transform="translate(797.19868,329.01747)"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923"><flowRegion
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043"><flowRegion
          id="flowRegion3825"><rect
            id="rect3827"
            width="112.85714"
@@ -663,9 +768,9 @@
        style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.50318472;fill:#000000;fill-opacity:1;stroke:none;font-family:'Tom\'s New Roman';-inkscape-font-specification:'Tom\'s New Roman'"
        id="flowRoot3831"
        xml:space="preserve"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923"><flowRegion
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043"><flowRegion
          id="flowRegion3833"><rect
            y="205.52306"
            x="32.857143"
@@ -687,13 +792,13 @@
        x="367.19046"
        y="392.6781"
        transform="translate(77.739981,14.151085)"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-ydpi="115.923" />
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-ydpi="113.71043" />
     <g
-       inkscape:export-ydpi="115.923"
-       inkscape:export-xdpi="115.923"
-       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_03.png"
+       inkscape:export-ydpi="113.71043"
+       inkscape:export-xdpi="113.71043"
+       inkscape:export-filename="/home/nicola/Documents/repos/diario-in-codice-website/assets/images/appendice_A/vasi_comunicanti_04.png"
        style="fill:#ff0000;fill-opacity:1;display:inline"
        transform="translate(126.283,295.4631)"
        id="g6498">
